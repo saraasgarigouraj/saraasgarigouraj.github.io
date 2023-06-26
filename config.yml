@@ -35,7 +35,7 @@ menu:
 params:
     description: "I am a Ph.D. student in the Department of Economics at The University of Oklahoma, Norman"
     author: Ahmed El Fatmaoui
-    googleAnalyticsID: "G-97G4MZ4061"
+    #googleAnalyticsID: "G-97G4MZ4061"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: true
