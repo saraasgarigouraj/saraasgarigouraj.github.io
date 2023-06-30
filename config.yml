@@ -1,6 +1,4 @@
 baseURL: "https://ahmedelfatmaoui.github.io/" 
-#baseURL: "https://github.com/ahmedelfatmaoui/ahmedelfatmaoui.github.io" 
-
 title: Ahmed El Fatmaoui
 paginate: 20
 theme: PaperMod
@@ -19,9 +17,9 @@ menu:
         - name: Papers (coming soon!)
           # url: /papers/
           # weight: 1
-        - name: Courses (coming soon!)
-          # url: /courses/
-          # weight: 2
+        - name: Courses
+          url: /courses/
+          weight: 2
         # - name: Design
         #   url: /design/
         #   weight: 3
@@ -63,11 +61,11 @@ params:
           imageWidth: 270
           imageHeight: 270
           imageTitle: Ahmed El Fatmaoui
-          # buttons:
+           buttons:
           #   - name: Papers (coming soon!)
           #     url: /papers/
-          #   - name: Courses (coming soon!)
-          #     url: /courses/ 
+            - name: Courses
+              url: /courses/
             # - name: Design
             #   url: /design/
             # - name: Newsletter
