@@ -14,14 +14,12 @@ taxonomies:
 
 menu:
     main:
-        - name: Courses
-          url: /courses/
-          weight: 2
-          
+          - name: Courses
+            url: /courses/
+            weight: 2
         # - name: Papers (coming soon!)
         #   # url: /papers/
         #   # weight: 1
-
         # - name: Design
         #   url: /design/
         #   weight: 3
@@ -63,12 +61,11 @@ params:
           imageWidth: 270
           imageHeight: 270
           imageTitle: Ahmed El Fatmaoui
-           buttons:
-            - name: Courses
-              url: /courses/
+          buttons:
+              - name: Courses
+                url: /courses/
           #   - name: Papers (coming soon!)
           #     url: /papers/
-
             # - name: Design
             #   url: /design/
             # - name: Newsletter
