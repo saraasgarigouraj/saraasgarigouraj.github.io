@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.27)  19 SEP 2023 23:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.27)  19 SEP 2023 23:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -433,55 +433,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--119
 
  []
 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.122 \multicolumn{3}{p{7.5in}}{\hrule}
+                                       \\[1.5ex]
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
 ! Misplaced \omit.
 \multispan ->\omit 
                    \@multispan 
-l.129 \multicolumn{1}{p{7.5in}}{\hrule}
-                                       \\
+l.125 \multicolumn{3}{p{7.5in}}{\hrule}
+                                       
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-! Undefined control sequence.
-\@ampacol ->\@addamp \@acol 
-                            
-l.129 \multicolumn{1}{p{7.5in}}{\hrule}
-                                       \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\@mkpream ...e \or \@preamerr \tw@ \or \or \@acol 
-                                                  \fi 
-l.129 \multicolumn{1}{p{7.5in}}{\hrule}
-                                       \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
-
- []
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.125 \multicolumn{3}{p{7.5in}}{\hrule}
+                                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
 
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Overfull \hbox (267.80997pt too wide) in paragraph at lines 210--233
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.186 \multicolumn{3}{p{7.5in}}{\hrule}
+                                       \\[2ex]
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.204 \multicolumn{3}{p{7.5in}}{\hrule}
+                                       \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (267.80997pt too wide) in paragraph at lines 209--221
 [][] 
  []
 
 
-Overfull \hbox (38.99997pt too wide) in paragraph at lines 247--276
+Overfull \hbox (267.80997pt too wide) in paragraph at lines 223--228
 [][] 
  []
 
-[2] [3] (./cv.aux)
+[2]
+Overfull \hbox (38.99997pt too wide) in paragraph at lines 250--279
+[][] 
+ []
+
+[3] (./cv.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -501,7 +516,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on cv.pdf (3 pages, 79831 bytes).
+Output written on cv.pdf (3 pages, 79821 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
