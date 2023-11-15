@@ -64,7 +64,7 @@ params:
           buttons:
               - name: Courses
                 url: /courses/
-             - name: Papers
+              - name: Papers
                 url: /papers/
             # - name: Design
             #   url: /design/
