@@ -17,7 +17,7 @@ menu:
           - name: Courses
             url: /courses/
             weight: 2
-          - name: Research (working in progess)
+          - name: Papers
             url: /papers/
         #   # weight: 1
         # - name: Design
@@ -64,7 +64,7 @@ params:
           buttons:
               - name: Courses
                 url: /courses/
-             - name: Research (working in progess)
+             - name: Papers
                 url: /papers/
             # - name: Design
             #   url: /design/
