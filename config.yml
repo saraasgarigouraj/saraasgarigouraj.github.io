@@ -66,8 +66,8 @@ params:
                 url: /courses/
               - name: Papers
                 url: /papers/
-            # - name: Design
-            #   url: /design/
+              - name: Design
+                url: /design/
             # - name: Newsletter
             #   url: https://pmichaillat.substack.com
     socialIcons:
@@ -79,8 +79,8 @@ params:
           url: /location/
         # - name: Office Hours
         #   url: /officehours/
-        # - name: Google Scholar
-        #   url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=hYtCcXoAAAAJ&hl=en&oi=ao
         # - name: YouTube
         #   url: https://www.youtube.com/@pmichaillat
         # - name: GitHub
