@@ -66,8 +66,8 @@ params:
                 url: /courses/
               - name: Papers
                 url: /papers/
-              - name: Design
-                url: /design/
+              # - name: Design
+              #   url: /design/
             # - name: Newsletter
             #   url: https://pmichaillat.substack.com
     socialIcons:
