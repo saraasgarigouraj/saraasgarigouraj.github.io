@@ -16,11 +16,25 @@
     font-size: 40px;
 }
 
-.profile img {
-    display: inline-table;
-    border-radius: 35px;
-     box-shadow: inset 0 0 1px rgba(211, 211, 211, 0.2);
+.profile {
+  position: relative;
+  display: inline-table;
+  border-radius: 45px;
+  background-color: lightgray; /* Set the background color */
 }
+
+.profile::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, transparent 30%, black);
+  -webkit-mask-image: radial-gradient(circle, white 100%, transparent 100%);
+  mask-image: radial-gradient(circle, white 100%, transparent 100%);
+}
+
 
 .buttons {
     flex-wrap: wrap;
