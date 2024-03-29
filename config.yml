@@ -83,8 +83,8 @@ params:
           url: https://scholar.google.com/citations?user=hYtCcXoAAAAJ&hl=en&oi=ao
         # - name: YouTube
         #   url: https://www.youtube.com/@pmichaillat
-        # - name: GitHub
-        #   url: https://github.com/pmichaillat?tab=repositories
+        - name: GitHub
+          url: https://github.com/ahmedelfatmaoui?tab=repositories
         # - name: Substack
         #   url: https://pmichaillat.substack.com
 
