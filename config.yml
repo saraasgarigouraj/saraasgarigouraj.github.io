@@ -14,10 +14,10 @@ taxonomies:
 
 menu:
     main:
-          - name: Courses
+          - name: Teaching
             url: /courses/
             weight: 2
-          - name: Papers
+          - name: Research
             url: /papers/
         #   # weight: 1
         # - name: Design

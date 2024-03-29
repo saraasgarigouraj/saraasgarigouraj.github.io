@@ -8,8 +8,6 @@
     align-items: center;
     min-height: calc(100vh - var(--header-height) - var(--footer-height) - (var(--gap) * 2));
     text-align: center;
-    width: 300px; /* Set a specific width */
-    height: 300px; /* Set the same value for height to make it square */
 }
 
 .profile .profile_inner h1 {
@@ -18,7 +16,7 @@
 
 .profile img {
     display: inline-table;
-    border-radius: 0;
+    border-radius: 100%;
 }
 
 .buttons {
