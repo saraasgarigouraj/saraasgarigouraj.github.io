@@ -14,10 +14,10 @@ taxonomies:
 
 menu:
     main:
-          - name: Courses
+          - name: Teaching
             url: /courses/
             weight: 2
-          - name: Papers
+          - name: Research
             url: /papers/
         #   # weight: 1
         # - name: Design
@@ -58,13 +58,13 @@ params:
           title: Ahmed El Fatmaoui
           subtitle: "Welcome! I am a fourth-year PhD Candidate in Economics at The University of Oklahoma, Norman. I specialize in labor economics, the economics of education, and health economics. Before coming to Norman, I received a Master's in Applied Mathematics from the University of Central Oklahoma. My current research centers on college costs, amenities, and relevant policies that shape student outcomes. In previous work, I delved into the study of policies impacting vaccine development."
           imageUrl: "/picture.jpeg"
-          imageWidth: 270
-          imageHeight: 270
+          imageWidth: 300
+          imageHeight: 300
           imageTitle: Ahmed El Fatmaoui
           buttons:
-              - name: Courses
+              - name: Teaching
                 url: /courses/
-              - name: Papers
+              - name: Research
                 url: /papers/
               # - name: Design
               #   url: /design/
