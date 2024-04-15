@@ -36,7 +36,7 @@ params:
     googleAnalyticsID: "G-WHEYZ77X40"
     DateFormat: "January 2024"
     defaultTheme: light
-    hideFooter: true
+    hideFooter: false
     disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: false
@@ -64,8 +64,13 @@ params:
           buttons:
               - name: Teaching
                 url: /courses/
+                weight: 1
               - name: Research
                 url: /papers/
+                weight: 2
+              - name: Resume
+                url: cv.pdf
+                weight: 3
               # - name: Design
               #   url: /design/
             # - name: Newsletter
@@ -105,7 +110,7 @@ markup:
             unsafe: true
     highlight:
         guessSyntax: true
-        style: xcode
+        style: autumn
     tableOfContents:
         endLevel: 2
         ordered: false
