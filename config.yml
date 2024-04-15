@@ -58,8 +58,8 @@ params:
           title: Ahmed El Fatmaoui
           subtitle: "Welcome! I am a PhD Candidate in Economics at The University of Oklahoma, Norman. I specialize in labor economics, the economics of education, and health economics. Before coming to Norman, I received a Master's in Applied Mathematics from the University of Central Oklahoma.\n My current research centers on college costs, amenities, and relevant policies that shape student outcomes. My research also involves examining the effects of policy on vaccine development and assessing the impact of vaccination on the health outcomes of pregnant women and infants."
           imageUrl: "/picture.jpeg"
-          imageWidth: 200
-          imageHeight: 200
+          imageWidth: 250
+          imageHeight: 300
           imageTitle: Ahmed El Fatmaoui
           buttons:
               - name: Teaching
