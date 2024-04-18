@@ -92,8 +92,8 @@ params:
             # - name: Newsletter
             #   url: https://pmichaillat.substack.com
     socialIcons:
-        - name: CV
-          url: /cv.pdf
+        # - name: CV
+        #   url: /cv.pdf
         - name: Email
           url: mailto:aelfatmaoui@ou.edu
         - name: Location
