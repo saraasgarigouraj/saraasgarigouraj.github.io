@@ -72,9 +72,9 @@ params:
                 My current research centers on college costs, amenities, and relevant policies that shape student outcomes. My research also involves examining the effects of policy on vaccine development and assessing the impact of vaccination on the health outcomes of pregnant women and infants. 
                 <div style="margin-bottom: 0.5cm;"></div>
                 My research has earned recognition through Southern Economic Association Graduate Student Award, the OU Dodge Family College of Arts and Sciences Dissertation Research Fellowship, and Chong Liew Summer Research Award.
-          
+                <div style="margin-bottom: 0.5cm;"></div>
           imageUrl: "/picture.jpeg"
-          imageWidth: 250
+          imageWidth: 280
           imageHeight: 300
           imageTitle: Ahmed El Fatmaoui
           buttons:
