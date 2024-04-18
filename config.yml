@@ -64,7 +64,7 @@ params:
           enabled: true
           title: Ahmed El Fatmaoui
           subtitle: |
-                <div style="margin-bottom: 1.5cm;"></div>
+                <div style="margin-bottom: 0.2cm;"></div>
                 Welcome! 
                 <div style="margin-bottom: 0.5cm;"></div>
                 I am a Ph.D. Economics candidate at The University of Oklahoma, Norman. I specialize in labor economics, the economics of education, and health economics. Before coming to Norman, I received a Master's in Applied Mathematics from the University of Central Oklahoma. 
