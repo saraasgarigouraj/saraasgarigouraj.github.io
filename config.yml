@@ -64,13 +64,18 @@ params:
           enabled: true
           title: Ahmed El Fatmaoui
           subtitle: |
-            Welcome! |
-        
-            I am a Ph.D. Economics candidate at The University of Oklahoma, Norman. I specialize in labor economics, the economics of education, and health economics. Before coming to Norman, I received a Master's in Applied Mathematics from the University of Central Oklahoma. |
+          
+                Welcome! 
             
-            My current research centers on college costs, amenities, and relevant policies that shape student outcomes. My research also involves examining the effects of policy on vaccine development and assessing the impact of vaccination on the health outcomes of pregnant women and infants. |
             
-            My research has earned recognition through Southern Economic Association Graduate Student Award, the OU Dodge Family College of Arts and Sciences Dissertation Research Fellowship, and Chong Liew Summer Research Award.
+                I am a Ph.D. Economics candidate at The University of Oklahoma, Norman. I specialize in labor economics, the economics of education, and health economics. Before coming to Norman, I received a Master's in Applied Mathematics from the University of Central Oklahoma. 
+                
+                
+                My current research centers on college costs, amenities, and relevant policies that shape student outcomes. My research also involves examining the effects of policy on vaccine development and assessing the impact of vaccination on the health outcomes of pregnant women and infants. 
+                
+                
+                My research has earned recognition through Southern Economic Association Graduate Student Award, the OU Dodge Family College of Arts and Sciences Dissertation Research Fellowship, and Chong Liew Summer Research Award.
+          
           imageUrl: "/picture.jpeg"
           imageWidth: 250
           imageHeight: 300
