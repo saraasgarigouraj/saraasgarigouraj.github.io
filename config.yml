@@ -31,7 +31,14 @@ menu:
         #   weight: 4
 
 params:
-    description: "Welcome! I am a fourth-year  PhD Candidate in Economics at the University of Oklahoma, Norman. I specialize in labor economics, the economics of education, and health economics. Before coming to Norman, I received a Master's in Applied Mathematics from the University of Central Oklahoma. My current research centers on college costs, amenities, and relevant policies that shape student outcomes. In previous work, I delved into the study of policies impacting vaccine development."
+    description: |
+        Welcome!
+        
+        I am a Ph.D. Economics candidate at the University of Oklahoma, Norman. I specialize in labor economics, the economics of education, and health economics. Before coming to Norman, I received a Master's in Applied Mathematics from the University of Central Oklahoma. 
+        
+        My current research centers on college costs, amenities, and relevant policies that shape student outcomes. In previous work, I delved into the study of policies impacting vaccine development. 
+        
+        My research has earned recognition through the OU Dodge Family College of Arts and Sciences (DFCAS) Dissertation Research Fellowship, Southern Economic Association Graduate Student Award, and Chong Liew Summer Research Award.
     author: Ahmed El Fatmaoui
     googleAnalyticsID: "G-WHEYZ77X40"
     DateFormat: "January 2024"
