@@ -89,8 +89,8 @@ params:
                 url: /papers/
                 weight: 2
               - name: Resume
-                url: /resume/
-                weight: 3
+                url: /cv.pdf
+                weight: 5
               # - name: Design
               #   url: /design/
             # - name: Newsletter
