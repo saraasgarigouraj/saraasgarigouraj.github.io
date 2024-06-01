@@ -133,7 +133,7 @@ markup:
         style: autumn
     tableOfContents:
         endLevel: 2
-        ordered: false
+        ordered: true
         startLevel: 2
 
 # max number of characters:
