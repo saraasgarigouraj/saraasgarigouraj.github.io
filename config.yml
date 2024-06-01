@@ -89,15 +89,15 @@ params:
                 url: /papers/
                 weight: 2
               - name: Resume
-                url: cv.pdf
+                url: /resume/
                 weight: 3
               # - name: Design
               #   url: /design/
             # - name: Newsletter
             #   url: https://pmichaillat.substack.com
     socialIcons:
-        # - name: CV
-        #   url: /cv.pdf
+        - name: CV
+          url: /cv.pdf
         - name: Email
           url: mailto:aelfatmaoui@ou.edu
         - name: Location
