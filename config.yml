@@ -105,7 +105,7 @@ params:
         # - name: Office Hours
         #   url: /officehours/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=hYtCcXoAAAAJ&hl=en&oi=ao
+          url: https://scholar.google.com/citations?user=EdHxr3EAAAAJ&hl=en
         # - name: YouTube
         #   url: https://www.youtube.com/@pmichaillat
         - name: GitHub
