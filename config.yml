@@ -1,6 +1,6 @@
 baseURL: "https://ahmedelfatmaoui.github.io/" 
 title: Ahmed El Fatmaoui
-paginate: 20
+paginate: 14
 theme: PaperMod
 
 enableInlineShortcodes: true
