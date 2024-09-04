@@ -1,9 +1,3 @@
-/*
-This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
-
-Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
-*/
-
 
 .paper-container {
     position: relative;
@@ -21,7 +15,7 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     color: crimson;
     font-size: 1em;
     font-weight: bold;
-    transform: rotate(-90deg) translateX(-50%);
+    transform: rotate(0deg) translateX(-50%);
     transform-origin: left center;
     white-space: nowrap;
     line-height: 1.5;
