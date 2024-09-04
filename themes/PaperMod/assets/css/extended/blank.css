@@ -20,15 +20,23 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-head
 }
 
 body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-heading::before,
-.research-page .paper-heading::before {
-  /* content: '\1F4D1'; Unicode for 📑 (bookmark tabs emoji) */
-  content: '📄';
+body.list .research-page .paper-heading::before,
+.paper-heading::before {
+  content: '📄'; /* Paper icon, more widely supported */
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif; /* Emoji fonts */
   font-size: 1.2em;
   position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  color: #0066cc; /* Adjust color as needed */
+  color: #0066cc;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
 }
 
 body.list #top .header .nav a[title="Research"] + span.active ~ main .post-entry,
