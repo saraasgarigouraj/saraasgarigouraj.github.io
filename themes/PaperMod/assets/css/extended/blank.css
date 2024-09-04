@@ -42,31 +42,55 @@
 }
 
 
+/* Hide the icon on Teaching and Papers pages */
+.page[data-section="teaching"] .page-header svg,
+.page[data-section="papers"] .page-header svg {
+    display: none;
+}
+
+/* Hide the entire header on Teaching and Papers pages */
+.page[data-section="teaching"] .page-header,
+.page[data-section="papers"] .page-header {
+    display: none;
+}
+
+/* Styling for paper containers */
 .paper-container {
-  margin-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 .paper-heading {
-  font-size: 1.2em;
-  color: #333;
-  margin-bottom: 1em;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 1em;
 }
 
+/* Styling for entry content */
 .entry-author {
-  font-size: 0.9em;
-  color: #666;
-  margin-top: 0.5em;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 0.5em;
 }
 
 .entry-author a {
-  color: #0066cc;
-  text-decoration: none;
+    color: #0066cc;
+    text-decoration: none;
 }
 
 .entry-author a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
+/* Additional styling to ensure proper spacing */
+.post-entry {
+    margin-top: 1em;
+}
+
+/* Hide breadcrumbs on Teaching and Papers pages if they exist */
+.page[data-section="teaching"] .breadcrumbs,
+.page[data-section="papers"] .breadcrumbs {
+    display: none;
+}
 
 
 /*
