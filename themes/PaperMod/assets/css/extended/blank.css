@@ -1,66 +1,51 @@
 body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-container,
 .research-page .paper-container {
   position: relative;
-  margin-bottom: 3em;
-  padding-top: 2.5em;
-  padding-left: 30px; /* Reduced to accommodate the new icon */
+  margin-bottom: 2.5em;
+  padding-top: 0.5em;
 }
 
 body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-heading,
 .research-page .paper-heading {
-  position: relative;
-  margin: 0 0 1em 0;
-  padding: 0 0 0 30px; /* Increased padding for icon */
-  color: #333;
-  font-size: 1.2em;
-  font-weight: bold;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-}
-
-body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-heading::before,
-body.list .research-page .paper-heading::before,
-.paper-heading::before {
-  content: '📄'; /* Paper icon, more widely supported */
-  font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif; /* Emoji fonts */
-  font-size: 1.2em;
-  position: absolute;
-  color: #0066cc;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
+  font-family: "Cambria", "Times New Roman", Times, serif;
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #2c3e50;
+  margin: 0 0 0.7em 0;
+  padding: 0 0 0.3em 0;
+  border-bottom: 2px solid #3498db;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
   text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
 }
 
 body.list #top .header .nav a[title="Research"] + span.active ~ main .post-entry,
 .research-page .post-entry {
   margin-left: 0;
-  border-top: 1px solid #e0e0e0;
-  padding-top: 1em;
+  padding-top: 0.8em;
 }
 
 body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-author,
 .research-page .entry-author {
-  font-size: 0.9em;
-  color: #666;
-  margin-top: 0.5em;
+  font-family: "Calibri", "Arial", sans-serif;
+  font-size: 0.95em;
+  color: #555;
+  margin-top: 0.3em;
+  font-style: italic;
 }
 
 body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-author a,
 .research-page .entry-author a {
-  color: #0066cc;
+  color: #2980b9;
   text-decoration: none;
+  transition: color 0.2s ease-in-out;
 }
 
 body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-author a:hover,
 .research-page .entry-author a:hover {
+  color: #3498db;
   text-decoration: underline;
 }
-
 
 
 
