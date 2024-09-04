@@ -1,16 +1,18 @@
-.paper-container {
+body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-container,
+.research-page .paper-container {
   position: relative;
   margin-bottom: 3em;
-  padding-top: 2.5em; /* Increased to make room for the heading above */
+  padding-top: 2.5em;
   padding-left: 55px;
 }
 
-.paper-heading {
+body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-heading,
+.research-page .paper-heading {
   position: absolute;
   top: 0;
   left: 0;
   margin: 0;
-  padding: 0 0 0 20px; /* Padding for icon */
+  padding: 0 0 0 20px;
   color: black;
   font-size: 1.1em;
   font-weight: bold;
@@ -19,7 +21,8 @@
   align-items: center;
 }
 
-.paper-heading::before {
+body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-heading::before,
+.research-page .paper-heading::before {
   content: '';
   display: inline-block;
   width: 14px;
@@ -35,84 +38,27 @@
   background-position: top left, top left, bottom left, top right;
 }
 
-.post-entry {
+body.list #top .header .nav a[title="Research"] + span.active ~ main .post-entry,
+.research-page .post-entry {
   margin-left: 0;
-  border-top: 1px solid #e0e0e0; /* Optional: adds a subtle line under the heading */
-  padding-top: 1em; /* Adds some space between the heading and the content */
+  border-top: 1px solid #e0e0e0;
+  padding-top: 1em;
 }
 
-
-.paper-container {
-  margin-bottom: 2em;
-}
-
-.paper-heading {
-  font-size: 1.2em;
-  color: #333;
-  margin-bottom: 1em;
-}
-
-.entry-author {
+body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-author,
+.research-page .entry-author {
   font-size: 0.9em;
   color: #666;
   margin-top: 0.5em;
 }
 
-.entry-author a {
+body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-author a,
+.research-page .entry-author a {
   color: #0066cc;
   text-decoration: none;
 }
 
-.entry-author a:hover {
+body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-author a:hover,
+.research-page .entry-author a:hover {
   text-decoration: underline;
 }
-
-
-
-body.list #top .header .nav a[title="Teaching"] + span.active ~ .page-header svg,
-body.list #top .header .nav a[title="Teaching"] + span.active ~ .page-header .header-icon {
-    display: none !important;
-}
-
-body.list #top .header .nav a[title="Teaching"] + span.active ~ .page-header h1,
-body.list #top .header .nav a[title="Teaching"] + span.active ~ .page-header .header-title {
-    padding-left: 0 !important;
-}
-
-/* If you want to keep the icon on other pages, add this 
-body.list #top .header .nav a:not([title="Teaching"]) + span.active ~ .page-header svg,
-body.list #top .header .nav a:not([title="Teaching"]) + span.active ~ .page-header .header-icon {
-    display: inline-block !important;
-}
-*/
-
-/*
-.paper-container {
-    position: relative;
-    margin-bottom: 3em;
-    padding-top: 1.5em;
-    padding-left: 45px;
-  }
-  
-  .paper-heading {
-    position: absolute;
-    top: -1%;
-    left: -15px;
-    margin: 0;
-    padding: 0;
-    color: crimson;
-    font-size: 1em;
-    font-weight: bold;
-    transform: rotate(0deg) translateX(.1%);
-    transform-origin: left center;
-    white-space: nowrap;
-    line-height: 1.5;
-  }
-  
-  .post-entry {
-    margin-left: 0;
-  }
-  
-*/
-
-
