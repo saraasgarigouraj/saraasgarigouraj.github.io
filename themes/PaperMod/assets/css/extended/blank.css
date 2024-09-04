@@ -43,6 +43,16 @@
 
 
 
+.paper-container {
+  margin-bottom: 2em;
+}
+
+.paper-heading {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 1em;
+}
+
 .entry-author {
   font-size: 0.9em;
   color: #666;
