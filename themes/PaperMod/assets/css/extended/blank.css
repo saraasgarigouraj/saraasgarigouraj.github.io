@@ -3,7 +3,7 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-cont
   position: relative;
   margin-bottom: 3em;
   padding-top: 2.5em;
-  padding-left: 55px;
+  padding-left: 77px;
 }
 
 body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-heading,
