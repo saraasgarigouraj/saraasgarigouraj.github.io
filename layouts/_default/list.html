@@ -2,7 +2,7 @@
 {{- if (and site.Params.profileMode.enabled .IsHome) }}
 {{- partial "index_profile.html" . }}
 {{- else }} {{/* if not profileMode */}}
-{{- if and (not .IsHome) (.Title) (ne .Title "Papers") (ne .Title "Teaching") }}
+{{- if and (not .IsHome) (.Title) (ne .Title "Research") (ne .Title "Courses") }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
   <h1>
@@ -43,13 +43,15 @@
 
 {{- $prevHeading := "" }}
 {{- range $index, $page := $paginator.Pages }}
-  {{- if ne $prevHeading $page.Params.heading }}
-    {{- if ne $prevHeading "" }}
-      </div>
+  {{- if eq $.Title "Research" }}
+    {{- if ne $prevHeading $page.Params.heading }}
+      {{- if ne $prevHeading "" }}
+        </div>
+      {{- end }}
+      {{- $prevHeading = $page.Params.heading }}
+      <div class="paper-container">
+      <h3 class="paper-heading">{{ $page.Params.heading }}</h3>
     {{- end }}
-    {{- $prevHeading = $page.Params.heading }}
-    <div class="paper-container">
-    <h3 class="paper-heading">{{ $page.Params.heading }}</h3>
   {{- end }}
   {{- $class := "post-entry" }}
   {{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
@@ -81,7 +83,7 @@
     <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
   </article>
 {{- end }}
-{{- if ne $prevHeading "" }}
+{{- if and (eq $.Title "Research") (ne $prevHeading "") }}
   </div>
 {{- end }}
 
