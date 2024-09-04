@@ -39,17 +39,24 @@
 {{- partial "home_info.html" . }}
 {{- end }}
 {{- $term := .Data.Term }}
-{{- range $index, $page := $paginator.Pages }}
-{{- $class := "post-entry" }}
-{{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
-{{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
-{{- $class = "first-entry" }}
-{{- else if $term }}
-{{- $class = "post-entry tag-entry" }}
+
+{{- $groupedPages := dict }}
+{{- range $paginator.Pages }}
+  {{- $heading := .Params.heading | default "Other" }}
+  {{- $group := index $groupedPages $heading | default slice }}
+  {{- $groupedPages = merge $groupedPages (dict $heading (append $group .)) }}
 {{- end }}
+
+{{- range $heading, $pages := $groupedPages }}
 <div class="paper-container">
-  {{- if .Params.heading }}
-  <h3 class="paper-heading">{{ .Params.heading }}</h3>
+  <h3 class="paper-heading">{{ $heading }}</h3>
+  {{- range $pages }}
+  {{- $class := "post-entry" }}
+  {{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
+  {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
+  {{- $class = "first-entry" }}
+  {{- else if $term }}
+  {{- $class = "post-entry tag-entry" }}
   {{- end }}
   <article class="{{ $class }}">
     {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
@@ -71,15 +78,12 @@
       <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
     </div>
     {{- end }}
-    {{- if not (.Param "hideMeta") }}
-    <footer class="entry-footer">
-      <!-- Removed post_meta.html partial to avoid duplication -->
-    </footer>
-    {{- end }}
     <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
   </article>
+  {{- end }}
 </div>
 {{- end }}
+
 {{- if gt $paginator.TotalPages 1 }}
 <footer class="page-footer">
   <nav class="pagination">
