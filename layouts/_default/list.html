@@ -47,13 +47,13 @@
 {{- else if $term }}
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
+{{- if .Params.heading }}
+<h3 class="paper-heading">{{ .Params.heading }}</h3>
+{{- end }}
 <article class="{{ $class }}">
   {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
   {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
   <header class="entry-header">
-    {{- if .Params.heading }}
-    <h4 class="entry-heading">{{ .Params.heading }}</h4>
-    {{- end }}
     <h2>
       {{- .Title }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
