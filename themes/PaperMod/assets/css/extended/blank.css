@@ -42,6 +42,22 @@
 }
 
 
+
+.entry-author {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 0.5em;
+}
+
+.entry-author a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.entry-author a:hover {
+  text-decoration: underline;
+}
+
 /*
 .paper-container {
     position: relative;
