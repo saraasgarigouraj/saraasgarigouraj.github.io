@@ -21,7 +21,8 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-head
 
 body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-heading::before,
 .research-page .paper-heading::before {
-  content: '\1F4D1'; /* Unicode for 📑 (bookmark tabs emoji) */
+  /* content: '\1F4D1'; Unicode for 📑 (bookmark tabs emoji) */
+  content: '📄';
   font-size: 1.2em;
   position: absolute;
   left: 0;
@@ -54,6 +55,11 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-auth
 .research-page .entry-author a:hover {
   text-decoration: underline;
 }
+
+
+
+
+
 
 
 
