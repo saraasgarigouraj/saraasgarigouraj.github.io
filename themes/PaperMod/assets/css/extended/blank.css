@@ -2,6 +2,7 @@
   position: relative;
   margin-bottom: 3em;
   padding-top: 2.5em; /* Increased to make room for the heading above */
+   padding-left: 45px;
 }
 
 .paper-heading {
@@ -11,7 +12,7 @@
   margin: 0;
   padding: 0 0 0 20px; /* Padding for icon */
   color: black;
-  font-size: 0.9em;
+  font-size: 1.5em;
   font-weight: bold;
   line-height: 1.5;
   display: flex;
