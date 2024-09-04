@@ -26,9 +26,6 @@ body.list .research-page .paper-heading::before,
   font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif; /* Emoji fonts */
   font-size: 1.2em;
   position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
   color: #0066cc;
   speak: none;
   font-style: normal;
