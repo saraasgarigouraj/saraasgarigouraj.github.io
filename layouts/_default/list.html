@@ -29,7 +29,11 @@
 {{- $prevHeading := "" }}
 {{- range $index, $page := $paginator.Pages }}
   {{- if ne $prevHeading $page.Params.heading }}
+    {{- if ne $prevHeading "" }}
+      </div>
+    {{- end }}
     {{- $prevHeading = $page.Params.heading }}
+    <div class="paper-container">
     <h3 class="paper-heading">{{ $page.Params.heading }}</h3>
   {{- end }}
   {{- $class := "post-entry" }}
@@ -61,6 +65,9 @@
     {{- end }}
     <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
   </article>
+{{- end }}
+{{- if ne $prevHeading "" }}
+  </div>
 {{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}
