@@ -70,12 +70,24 @@
 
 
 
-.Teaching-page .page-header svg {
+body .page-header svg,
+body .page-header .header-icon {
     display: none;
 }
 
-.Teaching-page .page-header h1 {
+body .page-header h1,
+body .page-header .header-title {
     padding-left: 0;
+}
+
+body:has(span.active:contains("Teaching")) .page-header svg,
+body:has(span.active:contains("Teaching")) .page-header .header-icon {
+    display: none !important;
+}
+
+body:has(span.active:contains("Teaching")) .page-header h1,
+body:has(span.active:contains("Teaching")) .page-header .header-title {
+    padding-left: 0 !important;
 }
 
 /*
