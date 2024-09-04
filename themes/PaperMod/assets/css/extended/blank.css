@@ -67,7 +67,21 @@
   text-decoration: underline;
 }
 
+.page-header svg {
+    display: none;
+}
 
+.page-header h1 {
+    padding-left: 0;
+}
+
+body[class*="research"] .page-header svg {
+    display: inline-block;
+}
+
+body[class*="research"] .page-header h1 {
+    padding-left: initial;
+}
 
 /*
 .paper-container {
