@@ -3,18 +3,16 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-cont
   position: relative;
   margin-bottom: 3em;
   padding-top: 2.5em;
-  padding-left: 77px;
+  padding-left: 30px; /* Reduced to accommodate the new icon */
 }
 
 body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-heading,
 .research-page .paper-heading {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0 0 0 20px;
-  color: black;
-  font-size: 1.1em;
+  position: relative;
+  margin: 0 0 1em 0;
+  padding: 0 0 0 30px; /* Increased padding for icon */
+  color: #333;
+  font-size: 1.2em;
   font-weight: bold;
   line-height: 1.5;
   display: flex;
@@ -23,19 +21,13 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-head
 
 body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-heading::before,
 .research-page .paper-heading::before {
-  content: '';
-  display: inline-block;
-  width: 14px;
-  height: 16px;
-  margin-right: 6px;
-  background: 
-    linear-gradient(to bottom, black 0, black 2px, transparent 2px),
-    linear-gradient(to right, black 0, black 2px, transparent 2px),
-    linear-gradient(to right, black 0, black 10px, transparent 10px) bottom,
-    linear-gradient(to bottom, black 0, black 10px, transparent 10px) right;
-  background-size: 100% 100%, 100% 100%, 10px 2px, 2px 10px;
-  background-repeat: no-repeat;
-  background-position: top left, top left, bottom left, top right;
+  content: '\1F4D1'; /* Unicode for 📑 (bookmark tabs emoji) */
+  font-size: 1.2em;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #0066cc; /* Adjust color as needed */
 }
 
 body.list #top .header .nav a[title="Research"] + span.active ~ main .post-entry,
@@ -61,24 +53,6 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-auth
 body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-author a:hover,
 .research-page .entry-author a:hover {
   text-decoration: underline;
-}
-
-/* Ensure the heading icon is displayed */
-body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-heading::before,
-.research-page .paper-heading::before {
-  content: '';
-  display: inline-block;
-  width: 14px;
-  height: 16px;
-  margin-right: 6px;
-  background: 
-    linear-gradient(to bottom, black 0, black 2px, transparent 2px),
-    linear-gradient(to right, black 0, black 2px, transparent 2px),
-    linear-gradient(to right, black 0, black 10px, transparent 10px) bottom,
-    linear-gradient(to bottom, black 0, black 10px, transparent 10px) right;
-  background-size: 100% 100%, 100% 100%, 10px 2px, 2px 10px;
-  background-repeat: no-repeat;
-  background-position: top left, top left, bottom left, top right;
 }
 
 
