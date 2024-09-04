@@ -39,47 +39,53 @@
 {{- partial "home_info.html" . }}
 {{- end }}
 {{- $term := .Data.Term }}
+
+{{- $groupedPages := dict }}
 {{- range $index, $page := $paginator.Pages }}
-{{- $class := "post-entry" }}
-{{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
-{{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
-{{- $class = "first-entry" }}
-{{- else if $term }}
-{{- $class = "post-entry tag-entry" }}
+  {{- $heading := $page.Params.heading | default "Other" }}
+  {{- $group := index $groupedPages $heading | default slice }}
+  {{- $groupedPages = merge $groupedPages (dict $heading (append $group (dict "page" $page "index" $index))) }}
 {{- end }}
+
+{{- range $heading, $group := $groupedPages }}
 <div class="paper-container">
-  {{- if .Params.heading }}
-  <h3 class="paper-heading">{{ .Params.heading }}</h3>
+  <h3 class="paper-heading">{{ $heading }}</h3>
+  {{- range $entry := $group }}
+  {{- $page := $entry.page }}
+  {{- $index := $entry.index }}
+  {{- $class := "post-entry" }}
+  {{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
+  {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
+  {{- $class = "first-entry" }}
+  {{- else if $term }}
+  {{- $class = "post-entry tag-entry" }}
   {{- end }}
   <article class="{{ $class }}">
     {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
-    {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+    {{- partial "cover.html" (dict "cxt" $page "IsHome" true "isHidden" $isHidden) }}
     <header class="entry-header">
       <h2>
-        {{- .Title }}
-        {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+        {{- $page.Title }}
+        {{- if $page.Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
       </h2>
       <p class="entry-author">
-        {{ .Params.author }}
-        {{- if and .Params.journal .Params.journal_url }} 
-          || <a href="{{ .Params.journal_url }}" target="_blank">{{ .Params.journal }}</a>
+        {{ $page.Params.author }}
+        {{- if and $page.Params.journal $page.Params.journal_url }} 
+          || <a href="{{ $page.Params.journal_url }}" target="_blank">{{ $page.Params.journal }}</a>
         {{- end }}
       </p>
     </header>
-    {{- if (ne (.Param "hideSummary") true) }}
+    {{- if (ne ($page.Param "hideSummary") true) }}
     <div class="entry-content">
-      <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+      <p>{{ $page.Summary | plainify | htmlUnescape }}{{ if $page.Truncated }}...{{ end }}</p>
     </div>
     {{- end }}
-    {{- if not (.Param "hideMeta") }}
-    <footer class="entry-footer">
-      {{- partial "post_meta.html" . -}}
-    </footer>
-    {{- end }}
-    <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+    <a class="entry-link" aria-label="post link to {{ $page.Title | plainify }}" href="{{ $page.Permalink }}"></a>
   </article>
+  {{- end }}
 </div>
 {{- end }}
+
 {{- if gt $paginator.TotalPages 1 }}
 <footer class="page-footer">
   <nav class="pagination">
