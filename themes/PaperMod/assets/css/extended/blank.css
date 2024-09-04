@@ -62,3 +62,63 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-auth
 .research-page .entry-author a:hover {
   text-decoration: underline;
 }
+
+
+.paper-container {
+  margin-bottom: 2em;
+}
+
+.paper-heading {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.entry-author {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 0.5em;
+}
+
+.entry-author a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.entry-author a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/*
+.paper-container {
+    position: relative;
+    margin-bottom: 3em;
+    padding-top: 1.5em;
+    padding-left: 45px;
+  }
+  
+  .paper-heading {
+    position: absolute;
+    top: -1%;
+    left: -15px;
+    margin: 0;
+    padding: 0;
+    color: crimson;
+    font-size: 1em;
+    font-weight: bold;
+    transform: rotate(0deg) translateX(.1%);
+    transform-origin: left center;
+    white-space: nowrap;
+    line-height: 1.5;
+  }
+  
+  .post-entry {
+    margin-left: 0;
+  }
+  
+*/
+
+
