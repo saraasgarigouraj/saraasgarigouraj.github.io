@@ -69,15 +69,22 @@
 
 
 
-body:has(span.active:contains("Teaching")) .page-header svg,
-body:has(span.active:contains("Teaching")) .page-header .header-icon {
+body.list #top .header .nav a[title="Teaching"] + span.active ~ .page-header svg,
+body.list #top .header .nav a[title="Teaching"] + span.active ~ .page-header .header-icon {
     display: none !important;
 }
 
-body:has(span.active:contains("Teaching")) .page-header h1,
-body:has(span.active:contains("Teaching")) .page-header .header-title {
+body.list #top .header .nav a[title="Teaching"] + span.active ~ .page-header h1,
+body.list #top .header .nav a[title="Teaching"] + span.active ~ .page-header .header-title {
     padding-left: 0 !important;
 }
+
+/* If you want to keep the icon on other pages, add this 
+body.list #top .header .nav a:not([title="Teaching"]) + span.active ~ .page-header svg,
+body.list #top .header .nav a:not([title="Teaching"]) + span.active ~ .page-header .header-icon {
+    display: inline-block !important;
+}
+*/
 
 /*
 .paper-container {
