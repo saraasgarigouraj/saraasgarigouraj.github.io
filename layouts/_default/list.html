@@ -59,6 +59,12 @@
         {{- .Title }}
         {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
       </h2>
+      <p class="entry-author">
+        {{ .Params.author }}
+        {{- if and .Params.journal .Params.journal_url }} 
+          || <a href="{{ .Params.journal_url }}" target="_blank">{{ .Params.journal }}</a>
+        {{- end }}
+      </p>
     </header>
     {{- if (ne (.Param "hideSummary") true) }}
     <div class="entry-content">
