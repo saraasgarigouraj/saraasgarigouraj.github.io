@@ -62,8 +62,8 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-auth
 
 .paper-heading {
   position: absolute;
-  top: -.5%;
-  left: -35px; /* Changed from 0 to -15px to push heading further left */
+  top: 0%;
+  left: -15px; /* Changed from 0 to -15px to push heading further left */
   margin: 0;
   padding: 0;
   color: #9966CC;
