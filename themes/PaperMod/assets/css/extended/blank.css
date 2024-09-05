@@ -3,6 +3,7 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-cont
   position: relative;
   margin-bottom: 2.5em;
   padding-top: 0.5em;
+  left: 55px;
 }
 
 body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-heading,
@@ -10,7 +11,7 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .paper-head
   font-family: "Cambria", "Times New Roman", Times, serif;
   font-size: 1.4em;
   font-weight: 700;
-  color: #2c3e50;
+  color: navy;
   left: 55px;
   margin: 0 0 0.7em -40px;
   padding: 0 0 0.3em 0;
