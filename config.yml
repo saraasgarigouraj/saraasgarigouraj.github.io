@@ -47,7 +47,7 @@ params:
     googleAnalyticsID: "G-WHEYZ77X40"
     DateFormat: "January 2024"
     defaultTheme: light
-    hideFooter: true
+    hideFooter: false
     disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: false
@@ -59,7 +59,7 @@ params:
     ShowRssButtonInSectionTermList: false
     ShowToc: false
     disableScrollToTop: true
-    TocOpen: true
+    TocOpen: false ### show pic
     ShowWordCount: false
     UseHugoToc: true
     comments: false
