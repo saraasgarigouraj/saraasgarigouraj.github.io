@@ -91,6 +91,9 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-auth
   background-position: top left, top left, bottom left, top right;
 }
 
+.course-heading::before {
+
+}
 
 .post-entry {
   margin-left: 0;

@@ -52,10 +52,10 @@ params:
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
-    disableAnchoredHeadings: true
+    disableAnchoredHeadings: true 
     ShowPostNavLinks: false
     ShowBreadCrumbs: false
-    ShowCodeCopyButtons: false ### show pic true
+    ShowCodeCopyButtons: true  
     ShowRssButtonInSectionTermList: false
     ShowToc: false
     disableScrollToTop: true
@@ -65,7 +65,7 @@ params:
     comments: false
     math: true
     profileMode:
-          enabled: true 
+          enabled: false ### show pic true
           title: Ahmed El Fatmaoui
           subtitle: |
                 <div style="margin-bottom: 0.2cm;"></div>
