@@ -62,7 +62,7 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-auth
 
 .paper-heading {
   position: absolute;
-  top: -5%;
+  top: -1.5%;
   left: -5px; /* Changed from 0 to -15px to push heading further left */
   margin: 0;
   padding: 0;

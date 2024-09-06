@@ -47,7 +47,7 @@ params:
     googleAnalyticsID: "G-WHEYZ77X40"
     DateFormat: "January 2024"
     defaultTheme: light
-    hideFooter: false
+    hideFooter: true
     disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: false
