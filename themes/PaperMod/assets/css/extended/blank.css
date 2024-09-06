@@ -75,6 +75,23 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-auth
   line-height: 1.5;
 }
 
+.Paper-heading::before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 16px;
+  margin-right: 6px;
+  background: 
+    linear-gradient(to bottom, black 0, black 2px, transparent 2px),
+    linear-gradient(to right, black 0, black 2px, transparent 2px),
+    linear-gradient(to right, black 0, black 10px, transparent 10px) bottom,
+    linear-gradient(to bottom, black 0, black 10px, transparent 10px) right;
+  background-size: 100% 100%, 100% 100%, 10px 2px, 2px 10px;
+  background-repeat: no-repeat;
+  background-position: top left, top left, bottom left, top right;
+}
+
+
 .post-entry {
   margin-left: 0;
 }
