@@ -76,7 +76,7 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-auth
 }
 
 .paper-heading::before {
-  content: '\1F3C3\FE0E'; /* '\1F5D2\FE0E' '\1F4CC\FE0E'; /* 📌 Pushpin, forced text presentation */
+  content: '\1F3C1\FE0E';  /*'\1F3C3\FE0E' '\1F3CC\FE0E' '\1F5D2\FE0E' '\1F4CC\FE0E'; /* 📌 Pushpin, forced text presentation */
   font-size: 1.2em;
   position: absolute;
   left: -33px;
