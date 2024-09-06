@@ -76,10 +76,10 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-auth
 }
 
 .paper-heading::before {
-  content: '\1F4CC\FE0E'; /* 📌 Pushpin, forced text presentation */
+  content: '\1F5D2\FE0E'; /*'\1F4CC\FE0E'; /* 📌 Pushpin, forced text presentation */
   font-size: 1.2em;
   position: absolute;
-  left: -25px;
+  left: -30px;
   top: 50%;
   transform: translateY(-50%) scaleX(-1) rotate(-15deg);
   color: #0066cc; /* Adjust color as needed */
