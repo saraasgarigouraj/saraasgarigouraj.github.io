@@ -53,14 +53,14 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-auth
 /*==============*/
 /*==============*/
 
-.Paper-container {
+.paper-container {
   position: relative;
   margin-bottom: 3em; /* Increased from 2em to 3em for more vertical space */
   padding-top: 1.5em; /* Increased from 1em to 1.5em for more top space */
   padding-left: 25px; /* Increased from 30px to 45px to push content right */
 }
 
-.Paper-heading {
+.paper-heading {
   position: absolute;
   top: -1.5%;
   left: -2px; /* Changed from 0 to -15px to push heading further left */
@@ -75,7 +75,7 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-auth
   line-height: 1.5;
 }
 
-.Paper-heading::before {
+.paper-heading::before {
   content: '';
   display: inline-block;
   width: 14px;
