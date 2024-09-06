@@ -59,9 +59,9 @@ params:
     ShowRssButtonInSectionTermList: false
     ShowToc: false
     disableScrollToTop: true
-    TocOpen: false ### show pic
+    TocOpen: true 
     ShowWordCount: false
-    UseHugoToc: true
+    UseHugoToc: false ### show pic
     comments: false
     math: true
     profileMode:
