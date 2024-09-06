@@ -76,7 +76,8 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-auth
 }
 
 .paper-heading::before {
-  content: '';
+  /*content: ''; */
+  content: '\1F50D'; /* 🔍 Left-Pointing Magnifying Glass */
   display: inline-block;
   width: 14px;
   height: 16px;

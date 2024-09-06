@@ -63,9 +63,9 @@ params:
     ShowWordCount: false
     UseHugoToc: true 
     comments: false
-    math: true
+    math: false ### show pic true
     profileMode:
-          enabled: false ### show pic true
+          enabled: true 
           title: Ahmed El Fatmaoui
           subtitle: |
                 <div style="margin-bottom: 0.2cm;"></div>
