@@ -3,7 +3,7 @@ title: Ahmed El Fatmaoui
 paginate: 14
 theme: PaperMod
 
-enableInlineShortcodes: true
+enableInlineShortcodes: false  ### show pic true
 enableRobotsTXT: true
 
 social:
@@ -63,7 +63,7 @@ params:
     ShowWordCount: false
     UseHugoToc: true 
     comments: false
-    math: false ### show pic true
+    math: true
     profileMode:
           enabled: true 
           title: Ahmed El Fatmaoui
