@@ -3,8 +3,8 @@ title: Ahmed El Fatmaoui
 paginate: 14
 theme: PaperMod
 
-enableInlineShortcodes: false  ### show pic true
-enableRobotsTXT: true
+enableInlineShortcodes: true 
+enableRobotsTXT: false  ### show pic true
 
 social:
     twitter: aelfatmaoui
