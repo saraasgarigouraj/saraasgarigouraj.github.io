@@ -4,7 +4,7 @@ paginate: 14
 theme: PaperMod
 
 enableInlineShortcodes: true 
-enableRobotsTXT: false  ### show pic true
+enableRobotsTXT: true  
 
 social:
     twitter: aelfatmaoui
@@ -47,7 +47,7 @@ params:
     googleAnalyticsID: "G-WHEYZ77X40"
     DateFormat: "January 2024"
     defaultTheme: light
-    hideFooter: false
+    hideFooter: true
     disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: false
@@ -117,7 +117,7 @@ params:
         disableHLJS: true
         disableScrollBarStyle: true
     cover:
-        hiddenInList: false
+        hiddenInList: true
         hiddenInSingle: true
     label:
       text: "Ahmed El Fatmaoui"
