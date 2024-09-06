@@ -155,4 +155,28 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-auth
   
 */
 
+.paper-container {
+  margin-bottom: 2em;
+}
+
+.paper-heading {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.entry-author {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 0.5em;
+}
+
+.entry-author a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.entry-author a:hover {
+  text-decoration: underline;
+}
 
