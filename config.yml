@@ -61,11 +61,11 @@ params:
     disableScrollToTop: true
     TocOpen: true 
     ShowWordCount: false
-    UseHugoToc: false ### show pic
+    UseHugoToc: true 
     comments: false
     math: true
     profileMode:
-          enabled: true
+          enabled: false ### show pic
           title: Ahmed El Fatmaoui
           subtitle: |
                 <div style="margin-bottom: 0.2cm;"></div>
