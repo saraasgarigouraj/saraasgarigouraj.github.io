@@ -80,7 +80,7 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-auth
   font-size: 1.2em;
   position: absolute;
   left: -33px;
-  top: 50%;
+  top: 0%;
   /*transform: translateY(-50%) scaleX(-1) rotate(-15deg);*/
   color: #0066cc; /* Adjust color as needed */
   display: inline-block; /* Needed for transforms to work */
