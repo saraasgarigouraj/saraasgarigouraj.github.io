@@ -55,6 +55,7 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-auth
 
 .paper-container {
   position: relative;
+  content: '';
   margin-bottom: 3em; /* Increased from 2em to 3em for more vertical space */
   padding-top: 1.5em; /* Increased from 1em to 1.5em for more top space */
   padding-left: 45px; /* Increased from 30px to 45px to push content right */
@@ -63,7 +64,7 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-auth
 .paper-heading {
   position: absolute;
   top: -1.5%;
-  left: -5px; /* Changed from 0 to -15px to push heading further left */
+  left: -2px; /* Changed from 0 to -15px to push heading further left */
   margin: 0;
   padding: 0;
   color: #9966CC;
