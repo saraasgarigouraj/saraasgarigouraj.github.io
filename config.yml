@@ -117,7 +117,7 @@ params:
         disableHLJS: true
         disableScrollBarStyle: true
     cover:
-        hiddenInList: true
+        hiddenInList: true # Set to true to hide cover images in paper
         hiddenInSingle: true
     label:
       text: "Ahmed El Fatmaoui"
