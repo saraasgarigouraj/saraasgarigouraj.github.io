@@ -53,45 +53,41 @@ body.list #top .header .nav a[title="Research"] + span.active ~ main .entry-auth
 /*==============*/
 /*==============*/
 
+
 .paper-container {
   position: relative;
-  margin-bottom: 3em; /* Increased from 2em to 3em for more vertical space */
-  padding-top: 1.5em; /* Increased from 1em to 1.5em for more top space */
-  padding-left: 25px; /* Increased from 30px to 45px to push content right */
+  margin-bottom: 3em;
+  padding-top: 1.5em;
+  padding-left: 25px;
 }
 
 .paper-heading {
   position: absolute;
   top: -1.5%;
-  left: -2px; /* Changed from 0 to -15px to push heading further left */
+  left: -2px;
   margin: 0;
   padding: 0;
   color: #9966CC;
   font-size: 1em;
   font-weight: bold;
- /* transform: rotate(-90deg) translateX(-50%);*/
   transform-origin: left center;
   white-space: nowrap;
   line-height: 1.5;
 }
 
-.paper-heading::before {
-  content: '\1F3C1\FE0E';  /*'\1F3C3\FE0E' '\1F3CC\FE0E' '\1F5D2\FE0E' '\1F4CC\FE0E'; /* 📌 Pushpin, forced text presentation */
+.paper-heading:not(:empty)::before {
+  content: '\1F3C1\FE0E';  /*'\1F3C3\FE0E' '\1F3CC\FE0E' '\1F5D2\FE0E' '\1F4CC\FE0E'; /* 📌 Pushpin,*/
   font-size: 1.2em;
   position: absolute;
   left: -33px;
   top: -5%;
-  /*transform: translateY(-50%) scaleX(-1) rotate(-15deg);*/
-  color: #0066cc; /* Adjust color as needed */
-  display: inline-block; /* Needed for transforms to work */
+  color: #0066cc;
+  display: inline-block;
 }
-
 
 .post-entry {
   margin-left: 0;
 }
-
-
 
 
 
