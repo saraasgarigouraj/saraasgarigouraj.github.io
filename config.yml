@@ -82,8 +82,10 @@ params:
                 In my free time, I enjoy learning about different cultural dishes, hiking in natural scenes, and reading poems.
                 <div style="margin-bottom: 0.5cm;"></div>
           imageUrl: "/picture.jpeg"
-          imageWidth: 280
-          imageHeight: 300
+          #imageWidth: 280
+          #imageHeight: 300
+          imageWidth: 350
+          imageHeight: 200
           imageTitle: Ahmed El Fatmaoui
           buttons:
               - name: Teaching
