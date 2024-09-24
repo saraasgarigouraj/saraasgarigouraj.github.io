@@ -84,8 +84,8 @@ params:
           imageUrl: "/picture.jpeg"
           #imageWidth: 280
           #imageHeight: 300
-          imageWidth: 350
-          imageHeight: 200
+          imageWidth: 420
+          imageHeight: 300
           imageTitle: Ahmed El Fatmaoui
           buttons:
               - name: Teaching
