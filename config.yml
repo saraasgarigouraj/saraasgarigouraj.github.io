@@ -112,12 +112,12 @@ params:
         #   url: /officehours/
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=EdHxr3EAAAAJ&hl=en
-        # - name: YouTube
-        #   url: https://www.youtube.com/@pmichaillat
+        - name: Linkedin
+          url: https://www.linkedin.com/in/ahmed-el-fatmaoui-75114b330/
         - name: GitHub
           url: https://github.com/ahmedelfatmaoui?tab=repositories
-        # - name: Substack
-        #   url: https://pmichaillat.substack.com
+        - name: Twitter
+          url: https://x.com/ahmedelfatmaoui
 
     assets:
         disableHLJS: true
