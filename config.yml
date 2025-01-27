@@ -37,7 +37,7 @@ menu:
 params:
     css: |
         .profileMode .imageTitle {
-            font-size: 12px;
+            font-size: 14px;
         }
     description: |
         Welcome! 
@@ -68,7 +68,7 @@ params:
     math: true
     profileMode:
           enabled: true 
-          title: "<span style='font-size: 12px;'>Ahmed El Fatmaoui</span>"
+          title: "Ahmed El Fatmaoui"
           subtitle: |
                 <div style="margin-bottom: 0.2cm;"></div>
                 Welcome! 
