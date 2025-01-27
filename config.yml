@@ -35,10 +35,6 @@ menu:
         #   weight: 4
 
 params:
-    css: |
-        .profileMode .imageTitle {
-            font-size: 14px;
-        }
     description: |
         Welcome! 
         
