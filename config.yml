@@ -35,6 +35,10 @@ menu:
         #   weight: 4
 
 params:
+    css: |
+        .profileMode .imageTitle {
+            font-size: 12px;
+        }
     description: |
         Welcome! 
         
@@ -64,7 +68,7 @@ params:
     math: true
     profileMode:
           enabled: true 
-          title: Ahmed El Fatmaoui
+          title: "<span style='font-size: 12px;'>Ahmed El Fatmaoui</span>"
           subtitle: |
                 <div style="margin-bottom: 0.2cm;"></div>
                 Welcome! 
@@ -78,8 +82,8 @@ params:
           #imageHeight: 300
           imageWidth: 245
           imageHeight: 250
-          #imageTitle: Ahmed El Fatmaoui
-          imageTitle: "<span style='font-size: 12.5px;'>Ahmed El Fatmaoui</span>"
+          imageTitle: Ahmed El Fatmaoui
+          #imageTitle: "<span style='font-size: 12.5px;'>Ahmed El Fatmaoui</span>"
           buttons:
               - name: Teaching
                 url: /courses/
