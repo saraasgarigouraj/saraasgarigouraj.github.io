@@ -1,6 +1,6 @@
 baseURL: "https://ahmedelfatmaoui.github.io/" 
 title: Ahmed El Fatmaoui
-paginate: 14
+paginate: 10
 theme: PaperMod
 
 enableInlineShortcodes: true 
@@ -76,8 +76,8 @@ params:
           imageUrl: "/picture.jpeg"
           #imageWidth: 280
           #imageHeight: 300
-          imageWidth: 195
-          imageHeight: 200
+          imageWidth: 245
+          imageHeight: 250
           imageTitle: Ahmed El Fatmaoui
           buttons:
               - name: Teaching
