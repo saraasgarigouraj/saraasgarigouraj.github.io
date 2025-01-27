@@ -68,7 +68,7 @@ params:
     math: true
     profileMode:
           enabled: true 
-          title: "<span style='font-size: 14px;'>Ahmed El Fatmaoui</span>"
+          title: "<span style='font-size: 18px;'>Ahmed El Fatmaoui</span>"
           subtitle: |
                 <div style="margin-bottom: 0.2cm;"></div>
                 Welcome! 
@@ -143,3 +143,4 @@ markup:
 # * title: 70
 # * description: 120–155
 # * summary: 265
+
