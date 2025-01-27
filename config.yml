@@ -68,7 +68,7 @@ params:
     math: true
     profileMode:
           enabled: true 
-          title: "Ahmed El Fatmaoui"
+          title: "<span style='font-size: 14px;'>Ahmed El Fatmaoui</span>"
           subtitle: |
                 <div style="margin-bottom: 0.2cm;"></div>
                 Welcome! 
