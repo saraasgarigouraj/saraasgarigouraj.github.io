@@ -1,10 +1,8 @@
-
 ---
-title: "Papers"
-aliases: /archive/
-description: "Preprints"
+title: "Research"
+aliases: /papers/
+description: "Research Papers"
 ---
-
 
 <!-- Add your analytics code here if needed -->
 <script type="text/javascript">
@@ -52,31 +50,28 @@ display: block !important;
 }
 </style>
 
-<h2><a id="job-market-paper" class="anchor" href="#jobmarket" aria-hidden="true"><span class="octicon octicon-link"></span></a>Job Market Paper</h2>
+<h2><a id="published-papers-updated" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Published &amp; Forthcoming Papers</h2>
 
-<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="/job_market_paper.pdf">Dollars and Degrees: The Asymmetric Impact of State Appropriations on STEM and Non-STEM Fields</a> <br> Ahmed El Fatmaoui (2024) <br><button class="accordion">
+<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="/vax_paper.pdf">What Spurs Production and Innovation in the Vaccine Industry? Insights from Policy Interventions in the US</a> <br> with Myongjin Kim, Firat Demir, Qi Ge, Pallab Ghosh, and Junying Zhao <br> <i>Economics of Innovation and New Technology</i>, forthcoming <br><button class="accordion">
 Abstract
 </button>
-<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>This study examines the differential impact of state appropriations on STEM and non-STEM degree completion at U.S. public four-year institutions. Using a panel dataset from 2003 to 2019 and a Bartik-style instrumental variables approach, I find that state funding disproportionately affects STEM degree completion, with little to no impact on Non-STEM degrees. A 10% increase in state appropriations leads to a 3.4% increase in STEM degrees conferred, primarily four years after the funding change. This effect is concentrated among male students, science STEM majors, and non-selective institutions. Increased state support leads to higher institutional spending, and more STEM programs–factors that impact STEM degree completion more than non-STEM fields.</p></div>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>This paper investigates the impact of supply- and demand-side policy interventions on firms' output and innovation. Leveraging a unique dataset on vaccine production and development, we evaluate the effectiveness of a tort reform, a supply-side policy intervention that reduces vaccine manufacturers' product liability, and a demand-side policy intervention, the expansion of Medicare coverage of select vaccine products. Our difference-in-differences analysis indicates that while both interventions result in significant increases in vaccine production, the impact of the demand-side policy can be 3-6 times greater in magnitude. There is also evidence suggesting that vaccine development responds exclusively to the demand-side policy.</p></div>
 <p style="margin:0"><button class="accordion">
 Download
 </button>
-<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p><a href="/job_market_paper.pdf">Paper</a></p></div>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p><a href="/vax_paper.pdf">Paper</a></p></div>
 <p style="margin:0"><button class="accordion">
 BibTeX citation
 </button>
 <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p><pre><code>
-@article{elfatmaoui2024dollars,
-author = {Ahmed El Fatmaoui},
-title = {Dollars and Degrees: The Asymmetric Impact of State Appropriations on STEM and Non-STEM Fields},
-year = {2024},
-note = {Job Market Paper}
+@article{kim_al2025vaccine,
+author = {Myongjin Kim and Firat Demir and Ahmed El Fatmaoui and Qi Ge and Pallab Ghosh and Junying Zhao},
+title = {What Spurs Production and Innovation in the Vaccine Industry? Insights from Policy Interventions in the US},
+journal = {Economics of Innovation and New Technology},
+year = {forthcoming},
+note = {Accepted for publication}
 }
 </code></pre></p></div><br>
-
-<hr>
-
-<h2><a id="published-papers" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Published Papers</h2>
 
 <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://onlinelibrary.wiley.com/doi/full/10.1111/ecin.13225">From High School to Higher Education: Is Recreational Marijuana a Consumption Amenity for US College Students?</a> <br> Ahmed El Fatmaoui <br> <i>Economic Inquiry</i>, 2024 <br><button class="accordion">
 Abstract
@@ -103,23 +98,55 @@ doi = {10.1111/ecin.13225}
 
 <h2><a id="working-papers" class="anchor" href="#workingpapers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Working Papers</h2>
 
-<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="/vax_paper.pdf">What Spurs Production and Innovation in the Vaccine Industry? Insights from Policy Interventions in the US</a> <br> with Myongjin Kim, Firat Demir, Qi Ge, Pallab Ghosh, and Junying Zhao <br> Under review at <i>Health Economics</i> <br><button class="accordion">
+<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="/job_market_paper.pdf">Dollars and Degrees: The Asymmetric Impact of State Appropriations on STEM and Non-STEM Fields</a> <br> Ahmed El Fatmaoui (2024) <br><button class="accordion">
 Abstract
 </button>
-<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>This paper investigates the impact of supply- and demand-side policy interventions on firms' output and innovation. Leveraging a unique dataset on vaccine production and development, we evaluate the effectiveness of a tort reform, a supply-side policy intervention that reduces vaccine manufacturers' product liability, and a demand-side policy intervention, the expansion of Medicare coverage of select vaccine products. Our difference-in-differences analysis indicates that while both interventions result in significant increases in vaccine production, the impact of the demand-side policy can be 3-6 times greater in magnitude. There is also evidence suggesting that vaccine development responds exclusively to the demand-side policy.</p></div>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>This study examines the differential impact of state appropriations on STEM and non-STEM degree completion at U.S. public four-year institutions. Using a panel dataset from 2003 to 2019 and a Bartik-style instrumental variables approach, I find that state funding disproportionately affects STEM degree completion, with little to no impact on Non-STEM degrees. A 10% increase in state appropriations leads to a 3.4% increase in STEM degrees conferred, primarily four years after the funding change. This effect is concentrated among male students, science STEM majors, and non-selective institutions. Increased state support leads to higher institutional spending, and more STEM programs–factors that impact STEM degree completion more than non-STEM fields.</p></div>
 <p style="margin:0"><button class="accordion">
 Download
 </button>
-<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p><a href="/vax_paper.pdf">Paper</a></p></div><br>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p><a href="/job_market_paper.pdf">Paper</a></p></div>
+<p style="margin:0"><button class="accordion">
+BibTeX citation
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p><pre><code>
+@article{elfatmaoui2024dollars,
+author = {Ahmed El Fatmaoui},
+title = {Dollars and Degrees: The Asymmetric Impact of State Appropriations on STEM and Non-STEM Fields},
+year = {2024},
+note = {Working Paper}
+}
+</code></pre></p></div><br>
+
+<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">What is the Role of Sports at Elite Universities in the US?</a> <br> with Tyler Ransom <br><button class="accordion">
+Abstract
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>Admissions at elite private universities in the United States are becoming increasingly competitive. As competition increases, seats become more and more scarce. This paper analyzes the population of athletes at all Division I NCAA institutions. Using publicly available data from the US Department of Education, the NCAA, and institutions' athletic rosters, we document several novel facts. First, elite institutions enroll more athletes and field more varsity teams than even the largest public institutions, despite having drastically smaller student bodies. To provide further context on the background of athletes at elite institutions, we supplement the institution-level analysis with individual-level data taken from publicly available athletic rosters. Finally, we analyze the effect of a hypothetical policy that would restrict student athletes at each universities to be less than a certain fraction of the overall student body.</p></div>
+<p style="margin:0"><button class="accordion">
+BibTeX citation
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p><pre><code>
+@article{elfatmaoui_ransom2024sports,
+author = {Ahmed El Fatmaoui and Tyler Ransom},
+title = {What is the Role of Sports at Elite Universities in the US?},
+year = {2024},
+note = {Working Paper}
+}
+</code></pre></p></div><br>
 
 <hr>
 
 <h2><a id="works-in-progress" class="anchor" href="#workinprogress" aria-hidden="true"><span class="octicon octicon-link"></span></a>Works in Progress</h2>
 
-<p style="margin:0"> <b>What is the Role of Sports at Elite Universities in the US?</b> <br> with Tyler Ransom <br><button class="accordion">
+<p style="margin:0"> <b>Language Diversity: Does Mother Tongue Affect School Achievement?</b> <br> Ahmed El Fatmaoui <br><button class="accordion">
 Abstract
 </button>
-<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>Admissions at elite private universities in the United States are becoming increasingly competitive. As competition increases, seats become more and more scarce. This paper analyzes the population of athletes at all Division I NCAA institutions. Using publicly available data from the US Department of Education, the NCAA, and institutions' athletic rosters, we document several novel facts. First, elite institutions enroll more athletes and field more varsity teams than even the largest public institutions, despite having drastically smaller student bodies. To provide further context on the background of athletes at elite institutions, we supplement the institution-level analysis with individual-level data taken from publicly available athletic rosters. Finally, we analyze the effect of a hypothetical policy that would restrict student athletes at each universities to be less than a certain fraction of the overall student body.</p></div><br>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>This study investigates the returns to mother tongue instruction, exploiting linguistic heterogeneity between Arabic and Berber languages in Morocco. Using a random 10% census sample of over 800,000 school-aged individuals, the analysis employs a probit model controlling for economic, demographic, and regional factors. Results indicate that speaking a different language from the medium of instruction reduces enrollment and completion probabilities by up to 3.5 percentage points. This effect concentrates among younger children (grades 1-6) and is minimal in regions with higher pre-school attendance. These findings contribute to the literature on human capital formation in multilingual contexts and inform educational policy in linguistically diverse societies.</p></div><br>
+
+<p style="margin:0"> <b>Marijuana and Demand for Vaccination</b> <br> with Pallab Ghosh and Myongjin Kim <br><button class="accordion">
+Abstract
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>We study how healthcare system interactions triggered by non-health policies can affect preventive health behavior. Leveraging staggered U.S. state-level rollouts of medical and recreational marijuana legalization from 2002–2020, we show that requiring physician/hospital visits under medical marijuana laws (MML) leads to a significant increase in flu vaccination uptake, while recreational marijuana laws (RML) which remove the healthcare access requirement do not so. This differential design allows us a clean decomposition of behavioral mechanisms: the increased vaccine uptake under MML is driven by doctor engagement rather than marijuana use per se. Using adverse event (AE) data, we further document a second "nested" channel: marijuana use reduces vaccine-related AE reports, likely by alleviating post-vaccination pain, thereby reducing vaccination aversion, which is not mechanical but behavioral mechanism. We decompose these two channels by utilizing the MML and RML variations. MML modestly increases AE reports through higher exposure, while RML reduces them, which is supported by rational inattention theory as well as the cost-effort model. We also explore heterogeneity across different racial groups, age groups, income and insurance coverage and find that the impact is even stronger for the specific racial group and for more insurance accessibility. Our results suggest that unrelated regulatory environments can generate meaningful spillovers in public health, and that low-cost provider interactions embedded in non-health policies may serve as effective nudges for preventive care.</p></div><br>
 
 <p style="margin:0"> <b>Balancing Tuition and Fees: Do Growing College Fees Affect Student Outcomes?</b> <br> Ahmed El Fatmaoui <br><button class="accordion">
 Abstract
