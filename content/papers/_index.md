@@ -1,3 +1,4 @@
+
 ---
 title: "Papers"
 aliases: /archive/
@@ -5,6 +6,137 @@ description: "Preprints"
 ---
 
 
+<!-- Add your analytics code here if needed -->
+<script type="text/javascript">
+var sc_project=12988052; 
+var sc_invisible=1; 
+var sc_security="0346b3d7"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js" async></script>
+
+<style>
+button.accordion {
+font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+cursor: pointer;
+padding: 0px;
+border: none;
+text-align: left;
+outline: none;
+font-size: 100%;
+transition: 0.3s;
+background-color: #f8f8f8;
+}
+button.accordion.active, button.accordion:hover {
+background-color: #f8f8f8;
+}
+button.accordion:after {
+content: " [+] ";
+font-size: 90%;
+color:#777;
+float: left;
+margin-left: 1px;
+}
+button.accordion.active:after {
+content: " [\2212] ";
+}
+div.panel {
+padding: 0 20px;
+margin-top: 5px;
+display: none;
+background-color: white;
+font-size: 100%;
+}
+div.panel.show {
+display: block !important;
+}
+</style>
+
+<h2><a id="job-market-paper" class="anchor" href="#jobmarket" aria-hidden="true"><span class="octicon octicon-link"></span></a>Job Market Paper</h2>
+
+<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="/job_market_paper.pdf">Dollars and Degrees: The Asymmetric Impact of State Appropriations on STEM and Non-STEM Fields</a> <br> Ahmed El Fatmaoui (2024) <br><button class="accordion">
+Abstract
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>This study examines the differential impact of state appropriations on STEM and non-STEM degree completion at U.S. public four-year institutions. Using a panel dataset from 2003 to 2019 and a Bartik-style instrumental variables approach, I find that state funding disproportionately affects STEM degree completion, with little to no impact on Non-STEM degrees. A 10% increase in state appropriations leads to a 3.4% increase in STEM degrees conferred, primarily four years after the funding change. This effect is concentrated among male students, science STEM majors, and non-selective institutions. Increased state support leads to higher institutional spending, and more STEM programs–factors that impact STEM degree completion more than non-STEM fields.</p></div>
+<p style="margin:0"><button class="accordion">
+Download
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p><a href="/job_market_paper.pdf">Paper</a></p></div>
+<p style="margin:0"><button class="accordion">
+BibTeX citation
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p><pre><code>
+@article{elfatmaoui2024dollars,
+author = {Ahmed El Fatmaoui},
+title = {Dollars and Degrees: The Asymmetric Impact of State Appropriations on STEM and Non-STEM Fields},
+year = {2024},
+note = {Job Market Paper}
+}
+</code></pre></p></div><br>
+
+<hr>
+
+<h2><a id="published-papers" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Published Papers</h2>
+
+<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://onlinelibrary.wiley.com/doi/full/10.1111/ecin.13225">From High School to Higher Education: Is Recreational Marijuana a Consumption Amenity for US College Students?</a> <br> Ahmed El Fatmaoui <br> <i>Economic Inquiry</i>, 2024 <br><button class="accordion">
+Abstract
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>This paper examines how recreational marijuana legalization (RML) affects first-time college enrollment in the US using a unique college-level dataset and various estimation methods such as difference-in-differences and event study. I find that RML increases enrollments by approximately up to 9%, without compromising degree completion or graduation rate, and it boosts college competitiveness by offering a positive amenity, as evidenced by the rise in out-of-state enrollments relative to neighboring states. In addition, I find no evidence that RML affects college prices, quality, or in-state enrollment. This effect is stronger for non-selective public colleges in early-adopting RML states.</p></div>
+<p style="margin:0"><button class="accordion">
+Download
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p><a href="/rm_paper.pdf">Paper</a> <br> <a href="https://www.openicpsr.org/openicpsr/project/198801/version/V2/view">Code and data</a> <br> <a href="/rm_present.pdf">Presentation slides</a></p></div>
+<p style="margin:0"><button class="accordion">
+BibTeX citation
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p><pre><code>
+@article{elfatmaoui2024marijuana,
+author = {Ahmed El Fatmaoui},
+title = {From High School to Higher Education: Is Recreational Marijuana a Consumption Amenity for US College Students?},
+journal = {Economic Inquiry},
+year = {2024},
+doi = {10.1111/ecin.13225}
+}
+</code></pre></p></div><br>
+
+<hr>
+
+<h2><a id="working-papers" class="anchor" href="#workingpapers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Working Papers</h2>
+
+<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="/vax_paper.pdf">What Spurs Production and Innovation in the Vaccine Industry? Insights from Policy Interventions in the US</a> <br> with Myongjin Kim, Firat Demir, Qi Ge, Pallab Ghosh, and Junying Zhao <br> Under review at <i>Health Economics</i> <br><button class="accordion">
+Abstract
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>This paper investigates the impact of supply- and demand-side policy interventions on firms' output and innovation. Leveraging a unique dataset on vaccine production and development, we evaluate the effectiveness of a tort reform, a supply-side policy intervention that reduces vaccine manufacturers' product liability, and a demand-side policy intervention, the expansion of Medicare coverage of select vaccine products. Our difference-in-differences analysis indicates that while both interventions result in significant increases in vaccine production, the impact of the demand-side policy can be 3-6 times greater in magnitude. There is also evidence suggesting that vaccine development responds exclusively to the demand-side policy.</p></div>
+<p style="margin:0"><button class="accordion">
+Download
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p><a href="/vax_paper.pdf">Paper</a></p></div><br>
+
+<hr>
+
+<h2><a id="works-in-progress" class="anchor" href="#workinprogress" aria-hidden="true"><span class="octicon octicon-link"></span></a>Works in Progress</h2>
+
+<p style="margin:0"> <b>What is the Role of Sports at Elite Universities in the US?</b> <br> with Tyler Ransom <br><button class="accordion">
+Abstract
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>Admissions at elite private universities in the United States are becoming increasingly competitive. As competition increases, seats become more and more scarce. This paper analyzes the population of athletes at all Division I NCAA institutions. Using publicly available data from the US Department of Education, the NCAA, and institutions' athletic rosters, we document several novel facts. First, elite institutions enroll more athletes and field more varsity teams than even the largest public institutions, despite having drastically smaller student bodies. To provide further context on the background of athletes at elite institutions, we supplement the institution-level analysis with individual-level data taken from publicly available athletic rosters. Finally, we analyze the effect of a hypothetical policy that would restrict student athletes at each universities to be less than a certain fraction of the overall student body.</p></div><br>
+
+<p style="margin:0"> <b>Balancing Tuition and Fees: Do Growing College Fees Affect Student Outcomes?</b> <br> Ahmed El Fatmaoui <br><button class="accordion">
+Abstract
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>I investigate the relationship between tuition and fees at US public four-year universities, driven by tuition caps and freeze policies. I find that a one-dollar increase in tuition results in a 45 to 62 cent reduction in fees. This substitution effect arises from state-imposed tuition caps and freezes, which limit tuition increases and lead some institutions to raise or introduce new fees instead. Employing an instrumental variable approach with tuition restriction policies, I reveal that while the fee share has a negative but insignificant effect on first-time college enrollment, it significantly impacts STEM major completions. A 10 percentage point increase in fee share leads to a 1.6 percent decrease in STEM major awards, highlighting the differential effects of fees on various academic programs.</p></div><br>
+
+<script> 
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.parentNode.nextElementSibling.classList.toggle("show");
+  }
+}
+</script>
 
 
 <!-- Default Statcounter code for Personal Website
