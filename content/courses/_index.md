@@ -1,5 +1,5 @@
 ---
-title: "Teaching"
+title: ""
 aliases: /courses/
 description: "Courses on statistics, microeconomics, and macroeconomics. For undergraduate students."
 ---
