@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Teaching"
 aliases: /courses/
 description: "Courses on statistics, microeconomics, and macroeconomics. For undergraduate students."
 ---
@@ -50,6 +50,30 @@ color: #1976d2;
 }
 </style>
 
+<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Principles of Microeconomics (ECON 1123)</a> <br> <i>University of Wisconsin - La Crosse | Spring 2025; University of Oklahoma - Norman | Fall 2022</i> <br><button class="accordion">
+Course Description
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>The objective of this course is to introduce students to basic microeconomic concepts and prepare them for future economic classes. By the end of this class, students should be able to understand microeconomic theory and its applications, prepare and understand basic equilibrium graphs, relate economic topics to real world situations, and explain economic principles.</p></div>
+<p style="margin:0"><button class="accordion">
+Course Overview
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>Microeconomics is a branch of economics that studies the behavior of individuals and businesses and how decisions are made based on the allocation of limited resources. Microeconomics examines how these decisions and behaviors affect the supply and demand for goods and services, which determine the prices we pay.</p></div>
+<p style="margin:0"><button class="accordion">
+Course Materials
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">
+<div class="semester-item">
+<span class="semester-label">Spring 2025 (UW-La Crosse):</span> 
+<a href="/Syllabus_spring_2025_ECON_1123.pdf">Syllabus</a> | 
+<a href="/EVAL_spring_2025_ECON_1123.pdf">Course Evaluation</a>
+</div>
+<div class="semester-item">
+<span class="semester-label">Fall 2022 (OU-Norman):</span> 
+<a href="/Syllabus_Fall_2022_ECON_1123.pdf">Syllabus</a> | 
+<a href="/Eval_Fall_2022_ECON_1123.pdf">Course Evaluation</a>
+</div>
+</div><br>
+
 <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Principles of Macroeconomics (ECON 1113)</a> <br> <i>University of Oklahoma - Norman | Fall 2023</i> <br><button class="accordion">
 Course Description
 </button>
@@ -66,25 +90,6 @@ Course Materials
 <span class="semester-label">Fall 2023:</span> 
 <a href="/Syllabus_Fall_2023_ECON_1113.pdf">Syllabus</a> | 
 <a href="/Eval_Fall_2023_ECON_1113.pdf">Course Evaluation</a>
-</div>
-</div><br>
-
-<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Principles of Microeconomics (ECON 1123)</a> <br> <i>University of Oklahoma - Norman | Fall 2022</i> <br><button class="accordion">
-Course Description
-</button>
-<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>The objective of this course is to introduce students to basic microeconomic concepts and prepare them for future economic classes. By the end of this class, students should be able to understand microeconomic theory and its applications, prepare and understand basic equilibrium graphs, relate economic topics to real world situations, and explain economic principles.</p></div>
-<p style="margin:0"><button class="accordion">
-Course Overview
-</button>
-<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>Microeconomics is a branch of economics that studies the behavior of individuals and businesses and how decisions are made based on the allocation of limited resources. Microeconomics examines how these decisions and behaviors affect the supply and demand for goods and services, which determine the prices we pay.</p></div>
-<p style="margin:0"><button class="accordion">
-Course Materials
-</button>
-<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">
-<div class="semester-item">
-<span class="semester-label">Fall 2022:</span> 
-<a href="/Syllabus_Fall_2022_ECON_1123.pdf">Syllabus</a> | 
-<a href="/Eval_Fall_2022_ECON_1123.pdf">Course Evaluation</a>
 </div>
 </div><br>
 
