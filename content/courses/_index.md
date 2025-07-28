@@ -50,7 +50,7 @@ color: #1976d2;
 }
 </style>
 
-<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Principles of Microeconomics (ECON 1123)</a> <br> <i>University of Wisconsin - La Crosse | Spring 2025; University of Oklahoma - Norman | Fall 2022</i> <br><button class="accordion">
+<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Principles of Microeconomics (ECON 1123)</a> <br> <i>University of Oklahoma - Norman | Spring 2025, Fall 2022</i> <br><button class="accordion">
 Course Description
 </button>
 <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>The objective of this course is to introduce students to basic microeconomic concepts and prepare them for future economic classes. By the end of this class, students should be able to understand microeconomic theory and its applications, prepare and understand basic equilibrium graphs, relate economic topics to real world situations, and explain economic principles.</p></div>
@@ -63,12 +63,12 @@ Course Materials
 </button>
 <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">
 <div class="semester-item">
-<span class="semester-label">Spring 2025 (UW-La Crosse):</span> 
+<span class="semester-label">Spring 2025:</span> 
 <a href="/Syllabus_spring_2025_ECON_1123.pdf">Syllabus</a> | 
 <a href="/EVAL_spring_2025_ECON_1123.pdf">Course Evaluation</a>
 </div>
 <div class="semester-item">
-<span class="semester-label">Fall 2022 (OU-Norman):</span> 
+<span class="semester-label">Fall 2022:</span> 
 <a href="/Syllabus_Fall_2022_ECON_1123.pdf">Syllabus</a> | 
 <a href="/Eval_Fall_2022_ECON_1123.pdf">Course Evaluation</a>
 </div>
@@ -142,3 +142,4 @@ href="https://statcounter.com/" target="_blank"><img class="statcounter"
 src="https://c.statcounter.com/12988052/0/0346b3d7/1/" alt="Web Analytics"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->
+
