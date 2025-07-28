@@ -48,9 +48,16 @@ margin-bottom: 8px;
 font-weight: bold;
 color: #1976d2;
 }
+.university-info {
+color: #666;
+font-style: italic;
+font-size: 95%;
+}
 </style>
 
-<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Principles of Macroeconomics (ECON 1113)</a> <br> <i>Taught: Fall 2023</i> <br><button class="accordion">
+<h2><a id="university-oklahoma" class="anchor" href="#ou" aria-hidden="true"><span class="octicon octicon-link"></span></a><i class="fas fa-university" style="color: #8B0000; margin-right: 8px;"></i>University of Oklahoma - Norman</h2>
+
+<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Principles of Macroeconomics (ECON 1113)</a> <br> <span class="university-info">Fall 2023</span> <br><button class="accordion">
 Course Description
 </button>
 <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>The objective of this course is to introduce students to basic Macroeconomics concepts and prepare them for future economic classes. By the end of this class, students should be able to (1) understand and explain basic macroeconomic concepts and basic elements of how the economy in the US is structured, (2) apply their understanding of economics to current events, and (3) be able to distinguish between correct and incorrect economic logic.</p></div>
@@ -69,7 +76,7 @@ Course Materials
 </div>
 </div><br>
 
-<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Principles of Microeconomics (ECON 1123)</a> <br> <i>Taught: Fall 2022</i> <br><button class="accordion">
+<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Principles of Microeconomics (ECON 1123)</a> <br> <span class="university-info">Fall 2022</span> <br><button class="accordion">
 Course Description
 </button>
 <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>The objective of this course is to introduce students to basic microeconomic concepts and prepare them for future economic classes. By the end of this class, students should be able to understand microeconomic theory and its applications, prepare and understand basic equilibrium graphs, relate economic topics to real world situations, and explain economic principles.</p></div>
@@ -88,7 +95,7 @@ Course Materials
 </div>
 </div><br>
 
-<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Elements of Statistics (ECON 2843)</a> <br> <i>Taught: Fall 2021, Summer 2022</i> <br><button class="accordion">
+<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Elements of Statistics (ECON 2843)</a> <br> <span class="university-info">Fall 2021, Summer 2022</span> <br><button class="accordion">
 Course Description
 </button>
 <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>This is an introductory statistics course, which surveys basic statistical techniques with particular emphasis on business and economic applications. The learning objective of this course is to improve students' analytical skills in understanding and employing the descriptive and inferential statistics.</p></div>
