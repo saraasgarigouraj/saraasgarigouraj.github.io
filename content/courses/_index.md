@@ -40,8 +40,6 @@ div.panel.show{display:block!important;}
 <div class="panel" style="background-color:#F1F1F1;color:#666;padding:10px;">
   <div class="semester-item">
     <span class="semester-label">Fall 2023:</span>
-    <!-- add the syllabus link if you have it -->
-    <!-- <a href="/Syllabus_ECON_1123_Fall_2023.pdf">Syllabus</a> | -->
     <a href="/Eval_ECON_1123_Fall_2023.pdf">Course Evaluation</a>
   </div>
 </div><br>
@@ -65,8 +63,6 @@ div.panel.show{display:block!important;}
 <div class="panel" style="background-color:#F1F1F1;color:#666;padding:10px;">
   <div class="semester-item">
     <span class="semester-label">Fall 2024:</span>
-    <!-- add syllabus if available -->
-    <!-- <a href="/Syllabus_ECON_2843_Fall_2024.pdf">Syllabus</a> | -->
     <a href="/Eval_ECON_2843_Fall_2024.pdf">Course Evaluation</a>
   </div>
 </div><br>
