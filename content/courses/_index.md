@@ -95,8 +95,7 @@ Course Description
 <p style="margin:0"><button class="accordion">
 Course Overview
 </button>
-<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>**Course Overview (short):**
-Microeconomics examines how people and firms make choices under scarcity and how markets coordinate those choices. We use tools like supply–demand, elasticity, and marginal analysis to analyze real policies and market outcomes (taxes, externalities, market power).</p></div>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>Microeconomics examines how people and firms make choices under scarcity and how markets coordinate those choices. We use tools like supply–demand, elasticity, and marginal analysis to analyze real policies and market outcomes (taxes, externalities, market power).</p></div>
 <p style="margin:0"><button class="accordion">
 Course Materials
 </button>
