@@ -98,9 +98,9 @@ params:
         - name: CV
           url: /cv.pdf
         - name: Email
-          url: mailto:aelfatmaoui@ou.edu
+          url: mailto:sara.asgari@ou.edu
         - name: Location
-          url: /location/
+          url: https://www.google.com/maps/place/University+of+Oklahoma+Department+of+Economics+Room+321
         # - name: Office Hours
         #   url: /officehours/
         - name: Google Scholar
