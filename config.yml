@@ -118,10 +118,10 @@ params:
     cover:
         hiddenInList: true # Set to true to hide cover images in paper
         hiddenInSingle: true
-    label:
-  text: "Sara Asgari"
-      icon: /favicon.ico
-      iconHeight: 18
+label:
+    text: "Sara Asgari"
+    icon: /favicon.ico
+    iconHeight: 18
 
 markup:
     goldmark:
