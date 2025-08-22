@@ -26,7 +26,7 @@ params:
     Welcome!
     I am a Ph.D. candidate in Economics at the University of Oklahoma–Norman, with research interests in environmental economics, energy economics, and public economics. I will be on the job market in Fall 2025.
 
-    My job market paper, Environmental Gains from Trade: Evaluating the Impact of Market Dispatch on U.S. Electricity Generation Emissions, studies how the adoption of market dispatch alters generation patterns and reduces emissions through more efficient reallocation of electricity across regions.
+    My job market paper, Market Dispatch and Emissions in U.S. Electricity Markets: Spatial Reallocation and Operational Efficiency, studies how market dispatch reshapes generation patterns and emissions through operational efficiency and reallocation across regions.
   author: Sara Asgari
   googleAnalyticsID: "G-WHEYZ77X40"
   DateFormat: "January 2006"   # Go time layout, not a literal date
@@ -90,7 +90,7 @@ params:
       url: /location/
     - name: GitHub
       url: https://github.com/saraasgarigouraj
-    - name: Linkdin
+    - name: Linkedin
       url: https://www.linkedin.com/in/sara-a-9a6a1b182/
     - name: Twitter
       url: https://x.com/SaraAsgariEcon
