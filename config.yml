@@ -1,137 +1,112 @@
-baseURL: "https://saraasgarigouraj.github.io/" 
+baseURL: "https://saraasgarigouraj.github.io/"
 title: Sara Asgari
 paginate: 14
 theme: PaperMod
 
-enableInlineShortcodes: true 
-enableRobotsTXT: true  
-
-social:
-    twitter: aelfatmaoui
+enableInlineShortcodes: true
+enableRobotsTXT: true
 
 taxonomies:
-    tag: tags
+  tag: tags
 
 menu:
-    main:
-          - name: Teaching
-            url: /courses/
-            weight: 1
-          - name: Research
-            url: /papers/
-            weight: 2
-          - name: CV
-            url: /cv.pdf
-            weight: 3
-        #   # weight: 1
-        # - name: Design
-        #   url: /design/
-        #   weight: 3
-        # - name: Tags
-        #   url: /tags/
-        #   weight: 5     
-        # - name: Newsletter
-        #   url: https://pmichaillat.substack.com
-        #   weight: 4
+  main:
+    - name: Teaching
+      url: /courses/
+      weight: 1
+    - name: Research
+      url: /papers/
+      weight: 2
+    - name: CV
+      url: /cv.pdf
+      weight: 3
 
 params:
-    description: |
-        Welcome! 
-        I am a Ph.D. candidate in Economics at the University of Oklahoma–Norman, with research interests in environmental economics, energy economics, and public economics. I will be on the job market in Fall 2025. 
-        
-        My job market paper, Environmental Gains from Trade: Evaluating the Impact of Market Dispatch on U.S. Electricity Generation Emissions, studies how the adoption of market dispatch alters generation patterns and reduces emissions through more efficient reallocation of electricity across regions.
-    author: Sara Asgari
-    googleAnalyticsID: "G-WHEYZ77X40"
-    DateFormat: "January 2024"
-    defaultTheme: light
-    hideFooter: true
-    disableThemeToggle: true
-    ShowShareButtons: false
-    ShowReadingTime: false
-    disableSpecial1stPost: true
-    disableAnchoredHeadings: true 
-    ShowPostNavLinks: false
-    ShowBreadCrumbs: false
-    ShowCodeCopyButtons: true  
-    ShowRssButtonInSectionTermList: false
-    ShowToc: false
-    disableScrollToTop: true
-    TocOpen: true 
-    ShowWordCount: false
-    UseHugoToc: true 
-    comments: false
-    math: true
-    profileMode:
-          enabled: true 
-          title: "<span style='font-size: 26px;'>Sara Asgari</span>"
-          subtitle: |
-                <div style="margin-bottom: 0.2cm;"></div>
-                Welcome! 
-                <div style="margin-bottom: 0.5cm;"></div>
-I am a Ph.D. candidate in Economics at the University of Oklahoma–Norman, with research interests in environmental economics, energy economics, and public economics. I will be on the job market in Fall 2025. My job market paper, Environmental Gains from Trade: Evaluating the Impact of Market Dispatch on U.S. Electricity Generation Emissions, studies how the adoption of market dispatch alters generation patterns and reduces emissions through more efficient reallocation of electricity across regions.
-                <div style="margin-bottom: 0.5cm;"></div>
-          imageUrl: "/picture.jpeg"
-          #imageWidth: 280
-          #imageHeight: 300
-          imageWidth: 245
-          imageHeight: 250
-          imageTitle: Sara Asgari
-          #imageTitle: "<span style='font-size: 12.5px;'>Sara Asgari</span>"
-          buttons:
-              - name: Teaching
-                url: /courses/
-                weight: 1
-              - name: Research
-                url: /papers/
-                weight: 2
-              - name: CV
-                url: /cv.pdf
-                weight: 3
-              # - name: Design
-              #   url: /design/
-            # - name: Newsletter
-            #   url: https://pmichaillat.substack.com
-    socialIcons:
-        - name: CV
-          url: /cv.pdf
-        - name: Email
-          url: mailto:sara.asgari@ou.edu
-        - name: Location
-          url: /location/
-        # - name: Office Hours
-        #   url: /officehours/
-        - name: GitHub
-          url: https://github.com/saraasgarigouraj
-        - name: Linkedin
-          url: https://www.linkedin.com/in/sara-a-9a6a1b182/
-        - name: Twitter
-          url: https://x.com/SaraAsgariEcon
+  description: |
+    Welcome!
+    I am a Ph.D. candidate in Economics at the University of Oklahoma–Norman, with research interests in environmental economics, energy economics, and public economics. I will be on the job market in Fall 2025.
 
-    assets:
-        disableHLJS: true
-        disableScrollBarStyle: true
-    cover:
-        hiddenInList: true # Set to true to hide cover images in paper
-        hiddenInSingle: true
-label:
+    My job market paper, Environmental Gains from Trade: Evaluating the Impact of Market Dispatch on U.S. Electricity Generation Emissions, studies how the adoption of market dispatch alters generation patterns and reduces emissions through more efficient reallocation of electricity across regions.
+  author: Sara Asgari
+  googleAnalyticsID: "G-WHEYZ77X40"
+  DateFormat: "January 2006"   # Go time layout, not a literal date
+  defaultTheme: light
+  hideFooter: true
+  disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: false
+  ShowToc: false
+  disableScrollToTop: true
+  TocOpen: true
+  ShowWordCount: false
+  UseHugoToc: true
+  comments: false
+
+  profileMode:
+    enabled: true
+    title: "<span style='font-size: 26px;'>Sara Asgari</span>"
+    subtitle: |
+      <div style="margin-bottom: 0.2cm;"></div>
+      Welcome!
+      <div style="margin-bottom: 0.5cm;"></div>
+      I am a Ph.D. candidate in Economics at the University of Oklahoma–Norman, with research interests in environmental economics, energy economics, and public economics. I will be on the job market in Fall 2025. My job market paper, Environmental Gains from Trade: Evaluating the Impact of Market Dispatch on U.S. Electricity Generation Emissions, studies how the adoption of market dispatch alters generation patterns and reduces emissions through more efficient reallocation of electricity across regions.
+      <div style="margin-bottom: 0.5cm;"></div>
+    imageUrl: "/picture.jpeg"
+    imageWidth: 245
+    imageHeight: 250
+    imageTitle: Sara Asgari
+    buttons:
+      - name: Teaching
+        url: /courses/
+        weight: 1
+      - name: Research
+        url: /papers/
+        weight: 2
+      - name: CV
+        url: /cv.pdf
+        weight: 3
+
+  socialIcons:
+    - name: CV
+      url: /cv.pdf
+    - name: Email
+      url: mailto:sara.asgari@ou.edu
+    - name: Location
+      url: /location/
+    - name: GitHub
+      url: https://github.com/saraasgarigouraj
+    - name: Linkedin
+      url: https://www.linkedin.com/in/sara-a-9a6a1b182/
+    - name: Twitter
+      url: https://x.com/SaraAsgariEcon
+
+  assets:
+    disableHLJS: true
+    disableScrollBarStyle: true
+
+  cover:
+    hiddenInList: true
+    hiddenInSingle: true
+
+  label:
     text: "Sara Asgari"
     icon: /favicon.ico
     iconHeight: 18
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        guessSyntax: true
-        style: autumn
-    tableOfContents:
-        endLevel: 2
-        ordered: true
-        startLevel: 2
-
-# max number of characters:
-# * title: 70
-# * description: 120–155
-# * summary: 265
-
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    guessSyntax: true
+    style: autumn
+  tableOfContents:
+    endLevel: 2
+    ordered: true
+    startLevel: 2
