@@ -52,11 +52,20 @@ params:
     enabled: true
     title: "<span style='font-size: 26px;'>Sara Asgari</span>"
     subtitle: |
-      <div style="margin-bottom: 0.2cm;"></div>
-      Welcome!
-      <div style="margin-bottom: 0.5cm;"></div>
-      I am a Ph.D. candidate in Economics at the University of Oklahoma–Norman, with research interests in environmental economics, energy economics, and public economics. I will be on the job market in Fall 2025. My job market paper, Environmental Gains from Trade: Evaluating the Impact of Market Dispatch on U.S. Electricity Generation Emissions, studies how the adoption of market dispatch alters generation patterns and reduces emissions through more efficient reallocation of electricity across regions.
-      <div style="margin-bottom: 0.5cm;"></div>
+                <div style="margin-bottom: 0.2cm;"></div>
+                Welcome!
+                <div style="margin-bottom: 0.5cm;"></div>
+                I am a Ph.D. candidate in Economics at the University of Oklahoma–Norman, with research interests in environmental economics, energy economics, and their intersection with public policy. I will be on the job market in Fall 2025.  
+
+                <div style="margin-top: 0.4cm; margin-bottom: 0.4cm;"></div>
+                {\color{ou-crimson}\LARGE Market Dispatch and Emissions\\[0.2em] in U.S. Electricity Markets}\\[0.7em]
+                {\large\color{ou-crimson}Spatial Reallocation and Operational Efficiency}\\[1em]
+
+                My job market paper studies how the adoption of market dispatch across all U.S. electricity markets reshapes generation patterns and emissions by improving operational efficiency and reallocating generation across regions.  
+
+                Building on this work, my next project analyzes weather–energy events, focusing on how emissions and market outcomes depend jointly on weather and load conditions under both symmetric and asymmetric shocks, with particular attention to SPP–MISO and ERCOT.
+                <div style="margin-bottom: 0.5cm;"></div>
+
     imageUrl: "/picture.jpeg"
     imageWidth: 245
     imageHeight: 250
@@ -81,7 +90,7 @@ params:
       url: /location/
     - name: GitHub
       url: https://github.com/saraasgarigouraj
-    - name: Linkedin
+    - name: Linkdin
       url: https://www.linkedin.com/in/sara-a-9a6a1b182/
     - name: Twitter
       url: https://x.com/SaraAsgariEcon
