@@ -50,8 +50,7 @@ div.panel.show {
 <h2><i class="fas fa-briefcase" style="color: #841617; margin-right: 8px;"></i>Job Market Paper</h2>
 
 <p style="margin:0"> 
-<a style="margin:0; font-size:100%; font-weight:bold">Market Dispatch and Emissions in U.S. Electricity Markets: Spatial Reallocation and Operational Efficiency</a>  
-<br> Sara Asgari 
+<a style="margin:0; font-size:100%; font-weight:bold">Market Dispatch and Emissions in U.S. Electricity Markets: Spatial Reallocation and Operational Efficiency</a>   
 <br>
 <button class="accordion">Abstract</button>
 <div class="panel" style="background-color: #F1F1F1; color: #555; padding: 10px;">
