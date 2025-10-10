@@ -64,7 +64,7 @@ params:
 
     imageUrl: "/picture.jpg"
     imageWidth: 320
-    imageHeight: 380
+    imageHeight: 360
     imageTitle: Sara Asgari
     buttons:
       - name: Teaching
