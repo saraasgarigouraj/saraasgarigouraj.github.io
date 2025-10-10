@@ -63,8 +63,8 @@ params:
                 <div style="margin-bottom: 0.5cm;"></div>
 
     imageUrl: "/picture.jpg"
-    imageWidth: 245
-    imageHeight: 250
+    imageWidth: 210
+    imageHeight: 240
     imageTitle: Sara Asgari
     buttons:
       - name: Teaching
