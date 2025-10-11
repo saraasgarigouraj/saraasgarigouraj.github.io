@@ -73,7 +73,7 @@ This study evaluates the impact of market-based electricity dispatch on social w
 <h2><i class="fas fa-file-alt" style="color: #1976d2; margin-right: 8px;"></i>Working Papers</h2>
 
 <p style="margin:0"> 
-<a style="margin:0; font-size:100%; font-weight:bold">Weather–Energy Events and Market Dispatch: Emissions and Market Outcomes under Symmetric and Asymmetric Shocks</a>  
+<a style="margin:0; font-size:100%; font-weight:bold">Weather–Energy Events and Gains from Trade: Emissions and Market Outcomes under Symmetric and Asymmetric Shocks</a>  
 <br> with Chris Malloy 
 <br>
 <button class="accordion">Abstract</button>
