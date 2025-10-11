@@ -108,6 +108,7 @@ State-level policies, particularly Renewable Portfolio Standards (RPS), have bee
 
 <br>
 
+{{< rawhtml >}}
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   var acc = document.getElementsByClassName("accordion");
@@ -124,3 +125,5 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 </script>
+{{< /rawhtml >}}
+
