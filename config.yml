@@ -59,12 +59,12 @@ params:
                 <div style="margin-bottom: 0.5cm;"></div>
                 My job market paper, Market Dispatch and Emissions in U.S. Electricity Markets, studies how the adoption of market dispatch across all U.S. electricity markets reshapes generation patterns and emissions by improving operational efficiency and reallocating generation across regions.  
                 <div style="margin-bottom: 0.5cm;"></div>
-                Building on this work, my next project analyzes weather–energy events, focusing on how emissions and market outcomes depend jointly on weather and load conditions under both symmetric and asymmetric shocks, with particular attention to SPP–MISO and ERCOT.
+                Building on this work, my next project analyzes weather–energy events, focusing on how emissions and market outcomes depend jointly on weather and load conditions under both symmetric and asymmetric shocks, with particular attention to SPP–MISO  in the U.S. electricity sector.
                 <div style="margin-bottom: 0.5cm;"></div>
 
     imageUrl: "/picture1.jpg"
-    imageWidth: 300
-    imageHeight: 260
+    imageWidth: 260
+    imageHeight: 220
     imageTitle: Sara Asgari
     buttons:
       - name: Teaching
