@@ -29,6 +29,7 @@ details.abs[open] summary::after { content:" [−]"; }
 <p style="margin:0">
   <a style="margin:0; font-size:100%; font-weight:bold">Market Dispatch and Emissions in U.S. Electricity Markets: Spatial Reallocation and Operational Efficiency</a>
 </p>
+<br>
 
 <details class="abs">
   <summary>Abstract</summary>
@@ -56,7 +57,7 @@ details.abs[open] summary::after { content:" [−]"; }
   <a style="margin:0; font-size:100%; font-weight:bold">Weather–Energy Events and Gains from Trade: Emissions and Market Outcomes under Symmetric and Asymmetric Shocks</a><br>
   with Chris Malloy
 </p>
-
+<br>
 <details class="abs">
   <summary>Abstract</summary>
   <div class="details-body">
@@ -77,6 +78,7 @@ details.abs[open] summary::after { content:" [−]"; }
   <a style="margin:0; font-size:100%; font-weight:bold">How Does In-State Renewable Electricity Capacity Affect CO<sub>2</sub> Emissions? The Role of Renewable Portfolio Standards</a><br>
   Sara Asgari
 </p>
+<br>
 
 <details class="abs">
   <summary>Abstract</summary>
