@@ -29,7 +29,7 @@ button.accordion:after {
   margin-left: 1px;
 }
 button.accordion.active:after {
-  content: " [\2212] ";
+  content: " [−] ";
 }
 div.panel {
   padding: 0 20px;
@@ -39,7 +39,7 @@ div.panel {
   font-size: 100%;
 }
 div.panel.show {
-  display: block !important;
+  display: block;
 }
 </style>
 
@@ -53,15 +53,15 @@ div.panel.show {
 <a style="margin:0; font-size:100%; font-weight:bold">Market Dispatch and Emissions in U.S. Electricity Markets: Spatial Reallocation and Operational Efficiency</a>   
 <br>
 <button class="accordion">Abstract</button>
-<div class="panel" style="background-color: #F1F1F1; color: #555; padding: 10px;">
-<p>
+<div class="panel">
+<p style="background-color: #F1F1F1; color: #555; padding: 10px;">
 This study evaluates the impact of market-based electricity dispatch on social welfare during the U.S. deregulation period from 1999 to 2012. By comparing the observed market dispatch against counterfactual least-cost and least-emissions regimes, we find that while markets yielded modest reductions in CO₂ and NOₓ damages via efficiency gains, they also triggered a sharp increase in SO₂ damages. This increase was driven by expanded trade and a shift toward cheaper coal generation. The net effect was an annual increase in environmental damages of $2–11 billion—a figure that far surpasses the documented $3–5 billion in private cost savings. These losses were concentrated in early-adopting, coal-reliant regions with a high proportion of merchant generators. Our results demonstrate that while deregulated markets improved private efficiency, they created even larger social costs by amplifying environmental externalities, highlighting an urgent need to align wholesale market rules with environmental goals.
 </p>
 </div>
 
 <p style="margin:0"><button class="accordion">Download</button></p>
-<div class="panel" style="background-color: #F1F1F1; color: #555; padding: 10px;">
-<p>Coming soon</p>
+<div class="panel">
+<p style="background-color: #F1F1F1; color: #555; padding: 10px;">Coming soon</p>
 </div>
 
 <br>
@@ -77,15 +77,15 @@ This study evaluates the impact of market-based electricity dispatch on social w
 <br> with Chris Malloy 
 <br>
 <button class="accordion">Abstract</button>
-<div class="panel" style="background-color: #F1F1F1; color: #555; padding: 10px;">
-<p>
+<div class="panel">
+<p style="background-color: #F1F1F1; color: #555; padding: 10px;">
 We propose a new empirical design to estimate when electricity transmission provides the greatest value, exploiting variation in extreme net-load events. As power systems integrate more renewables, the grid faces increasing stress from days with severe imbalances between demand and renewable supply. We hypothesize that the private cost-saving value of transmission is highly heterogeneous and is disproportionately driven by its ability to insure against asymmetric regional shocks—where one region has a deficit while another has a surplus—compared to symmetric ones. Using day-ahead market data from MISO and SPP, we calculate the daily value of transmission against a counterfactual autarky equilibrium. A key innovation is our use of exogenous day-ahead forecasts of load and renewables to define extreme events, ensuring identification is free of post-treatment bias. We then estimate a causal model relating these event types to transmission value. Our findings will quantify the extent to which transmission acts as regional insurance, providing crucial guidance for infrastructure policy and the efficient integration of renewables.
 </p>
 </div>
 
 <p style="margin:0"><button class="accordion">Download</button></p>
-<div class="panel" style="background-color: #F1F1F1; color: #555; padding: 10px;">
-<p>Coming soon</p>
+<div class="panel">
+<p style="background-color: #F1F1F1; color: #555; padding: 10px;">Coming soon</p>
 </div>
 
 <br>
@@ -95,15 +95,15 @@ We propose a new empirical design to estimate when electricity transmission prov
 <br> Sara Asgari  
 <br>
 <button class="accordion">Abstract</button>
-<div class="panel" style="background-color: #F1F1F1; color: #555; padding: 10px;">
-<p>
+<div class="panel">
+<p style="background-color: #F1F1F1; color: #555; padding: 10px;">
 State-level policies, particularly Renewable Portfolio Standards (RPS), have been a primary driver of renewable energy adoption in the United States. While crucial for decarbonization, the expansion of renewable infrastructure carries its own ecological footprint, raising questions about its net environmental benefits. This study investigates how heterogeneous RPS design features—specifically, the allowance of out-of-state Renewable Energy Credit (REC) trading and policy stringency—shape these outcomes. We find that states prioritizing in-state renewable capacity development successfully spur local infrastructure growth. However, this same focus impedes their ability to control emissions and reduce their carbon footprint effectively. These results illuminate a critical tension in clean energy policy, demonstrating that the design of an RPS creates a trade-off between fostering a local green industry and achieving cost-effective emissions reductions.
 </p>
 </div>
 
 <p style="margin:0"><button class="accordion">Download</button></p>
-<div class="panel" style="background-color: #F1F1F1; color: #555; padding: 10px;">
-<p>Coming soon</p>
+<div class="panel">
+<p style="background-color: #F1F1F1; color: #555; padding: 10px;">Coming soon</p>
 </div>
 
 <br>
@@ -114,9 +114,13 @@ document.addEventListener("DOMContentLoaded", function() {
   for (var i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function() {
       this.classList.toggle("active");
-      this.nextElementSibling.classList.toggle("show");
+      var panel = this.nextElementSibling;
+      if (panel.classList.contains("show")) {
+        panel.classList.remove("show");
+      } else {
+        panel.classList.add("show");
+      }
     });
   }
 });
 </script>
-
