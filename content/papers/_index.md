@@ -45,11 +45,14 @@ details.abs[open] summary::after { content:" [−]"; }
 <details class="abs">
   <summary>Download</summary>
   <div class="details-body">
-    <p><a href="/files/jobmktpaper.pdf" target="_blank" style="color:#841617; font-weight:bold;">
-      <i class="fas fa-file-pdf"></i> Download PDF
-    </a></p>
+    <p>
+      <a href="{{ "files/jobmktpaper.pdf" | relURL }}" target="_blank" style="color:#841617; text-decoration:none;">
+        <i class="fas fa-file-pdf"></i> Download PDF
+      </a>
+    </p>
   </div>
 </details>
+
 
 
 <br>
