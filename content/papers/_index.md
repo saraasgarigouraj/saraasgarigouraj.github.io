@@ -28,6 +28,8 @@ details.abs[open] summary::after { content:" [−]"; }
 
 <p style="margin:0">
   <a style="margin:0; font-size:100%; font-weight:bold">Market Dispatch and Emissions in U.S. Electricity Markets: Spatial Reallocation and Operational Efficiency</a>
+ with Chris Malloy, Gihong Liu
+  
 </p>
 <br>
 
@@ -42,8 +44,13 @@ details.abs[open] summary::after { content:" [−]"; }
 
 <details class="abs">
   <summary>Download</summary>
-  <div class="details-body"><p>Coming soon</p></div>
+  <div class="details-body">
+    <p><a href="/files/jobmktpaper.pdf" target="_blank" style="color:#841617; font-weight:bold;">
+      <i class="fas fa-file-pdf"></i> Download PDF
+    </a></p>
+  </div>
 </details>
+
 
 <br>
 
