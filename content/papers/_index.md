@@ -27,8 +27,8 @@ details.abs[open] summary::after { content:" [−]"; }
 <h2><i class="fas fa-briefcase" style="color: #841617; margin-right: 8px;"></i>Job Market Paper</h2>
 
 <p style="margin:0">
-  <a style="margin:0; font-size:100%; font-weight:bold">Market Dispatch and Emissions in U.S. Electricity Markets: Spatial Reallocation and Operational Efficiency</a>
- with Chris Malloy, Gihong Liu
+  <a style="margin:0; font-size:100%; font-weight:bold">Market Dispatch and Emissions in U.S. Electricity Markets: Spatial Reallocation and Operational Efficiency</a><br>
+ with Chris Malloy, Qihong Liu
   
 </p>
 <br>
