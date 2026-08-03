@@ -69,7 +69,7 @@ Course Materials
 </div>
 </div><br>
 
-<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Principles of Microeconomics Theory (ECON 1123)</a> <br> <i>University of Oklahoma - Norman | Fall 2023</i> <br><button class="accordion">
+<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Principles of Microeconomics Theory (ECON 1123)</a> <br> <i>University of Oklahoma - Norman | Fall 2023; Fall 2026 (in person)</i> <br><button class="accordion">
 Course Description
 </button>
 <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>The objective of this course is to introduce students to basic microeconomic concepts and prepare them for future economic classes. By the end of this class, students should be able to understand microeconomic theory and its applications, prepare and understand basic equilibrium graphs, relate economic topics to real world situations, and explain economic principles.</p></div>
@@ -85,6 +85,9 @@ Course Materials
 <span class="semester-label">Fall 2023:</span> 
 <a href="/Syllabus_ECON_1123_Fall_2023.pdf">Syllabus</a> | 
 <a href="/Eval_ECON_1123_Fall_2023.pdf">Course Evaluation</a>
+</div>
+<div class="semester-item">
+<span class="semester-label">Fall 2026:</span> In person; syllabus forthcoming
 </div>
 </div><br>
 
