@@ -24,9 +24,9 @@ menu:
 params:
   description: |
     Welcome!
-    I am a Ph.D. candidate in Economics at the University of Oklahoma–Norman, with research interests in environmental economics, energy economics, and public economics. I will be on the job market in Fall 2026.
+    I am a Ph.D. candidate in Economics at the University of Oklahoma. My research is in energy and environmental economics, with a focus on electricity markets, transmission infrastructure, and the environmental consequences of market design. I will be on the job market in Fall 2026.
 
-    My job market paper, Market Dispatch and Emissions in U.S. Electricity Markets: Spatial Reallocation and Operational Efficiency, studies how market dispatch reshapes generation patterns and emissions through operational efficiency and reallocation across regions.
+    My job market paper examines how the transition to market-based dispatch reshaped electricity generation and emissions in U.S. power markets, highlighting the tradeoffs between private cost savings, regional reallocation, and environmental damages.
   author: Sara Asgari
   googleAnalyticsID: "G-WHEYZ77X40"
   DateFormat: "January 2006"   # Go time layout, not a literal date
@@ -55,11 +55,11 @@ params:
                 <div style="margin-bottom: 0.2cm;"></div>
                 Welcome!
                 <div style="margin-bottom: 0.5cm;"></div>
-                I am a Ph.D. candidate in Economics at the University of Oklahoma–Norman, with research interests in environmental economics, energy economics, and their intersection with public policy. I will be on the job market in Fall 2026.  
+                I am a Ph.D. candidate in Economics at the University of Oklahoma. My research is in energy and environmental economics, with a focus on electricity markets, transmission infrastructure, and the environmental consequences of market design. I will be on the job market in Fall 2026.  
                 <div style="margin-bottom: 0.5cm;"></div>
-                My job market paper, Market Dispatch and Emissions in U.S. Electricity Markets, studies how the adoption of market dispatch across all U.S. electricity markets reshapes generation patterns and emissions by improving operational efficiency and reallocating generation across regions.  
+                My job market paper examines how the transition to market-based dispatch reshaped electricity generation and emissions in U.S. power markets, highlighting the tradeoffs between private cost savings, regional reallocation, and environmental damages.  
                 <div style="margin-bottom: 0.5cm;"></div>
-                Building on this work, my next project studies whether transmission expansion changes the pass-through of fuel-price shocks into electricity generation and emissions. Exploiting the timing and geographic intensity of Texas's CREZ buildout, I combine hourly unit-level generation, emissions, load, fuel-price, and transmission-completion data to examine how improved transmission access affected fuel switching and plant-level operating behavior. The analysis links large-scale grid infrastructure to renewable integration, dispatch flexibility, and environmental outcomes.
+                More broadly, I study how electricity-market design and transmission infrastructure shape the economic and environmental performance of power systems. My current work examines Texas's Competitive Renewable Energy Zones (CREZ) transmission expansion to estimate how new transmission infrastructure changes the pass-through of fuel-price shocks into electricity generation and emissions.
                 <div style="margin-bottom: 0.5cm;"></div>
 
     imageUrl: "/picture.jpg"
