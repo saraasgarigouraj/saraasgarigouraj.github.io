@@ -29,7 +29,7 @@ float: left;
 margin-left: 1px;
 }
 button.accordion.active:after {
-content: " [\2212] ";
+content: " [-] ";
 }
 div.panel {
 padding: 0 20px;
@@ -50,26 +50,62 @@ color: #1976d2;
 }
 </style>
 
-<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Principles of Macroeconomics Theory (ECON 1113)</a> <br> <i>University of Oklahoma - Norman | Summer 2023</i> <br><button class="accordion">
+<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Principles of Microeconomics Theory (ECON 1123)</a> <br> <i>University of Oklahoma - Norman | Fall 2026-present | In person</i> <br><button class="accordion">
 Course Description
 </button>
-<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>The objective of this course is to introduce students to basic Macroeconomics concepts and prepare them for future economic classes. By the end of this class, students should be able to (1) understand and explain basic macroeconomic concepts and basic elements of how the economy in the US is structured, (2) apply their understanding of economics to current events, and (3) be able to distinguish between correct and incorrect economic logic.</p></div>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>The objective of this course is to introduce students to basic microeconomic concepts and prepare them for future economic classes. By the end of this class, students should be able to understand microeconomic theory and its applications, prepare and understand basic equilibrium graphs, relate economic topics to real world situations, and explain economic principles.</p></div>
 <p style="margin:0"><button class="accordion">
 Course Overview
 </button>
-<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>Macroeconomics is a branch of economics that focuses on economic outcomes at the national level. Questions like: "Why are some countries rich while others are poor?" and "Why do some countries experience rapid growth while others stagnate?" are complicated. They are also best addressed after becoming familiar with a set of "tools" that facilitate a deep understanding of economic outcomes.</p></div>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>Microeconomics studies how individuals and firms make decisions under scarcity and how markets coordinate those decisions. Students use supply and demand, elasticity, marginal analysis, and market-equilibrium tools to analyze real-world policy and business questions.</p></div>
 <p style="margin:0"><button class="accordion">
 Course Materials
 </button>
 <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">
 <div class="semester-item">
-<span class="semester-label">Summer 2023:</span> 
-<a href="/Syllabus_ECON_1113_Summer_2023.pdf">Syllabus</a> | 
-<a href="/Eval_ECON_1113_Summer_2023.pdf">Course Evaluation</a>
+<span class="semester-label">Fall 2026-present:</span> Syllabus forthcoming
 </div>
 </div><br>
 
-<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Principles of Microeconomics Theory (ECON 1123)</a> <br> <i>University of Oklahoma - Norman | Fall 2023; Fall 2026 (in person)</i> <br><button class="accordion">
+<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Elements of Statistics (ECON 2843)</a> <br> <i>University of Oklahoma - Norman | Fall 2024</i> <br><button class="accordion">
+Course Description
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>This is an introductory statistics course, which surveys basic statistical techniques with particular emphasis on business and economic applications. The learning objective of this course is to improve students' analytical skills in understanding and employing descriptive and inferential statistics.</p></div>
+<p style="margin:0"><button class="accordion">
+Course Overview
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>We begin by learning how to describe data. We then study applied probability theory, which provides the foundation for statistical inference. The course then covers confidence intervals, hypothesis testing, and analysis of variance, giving students tools for using sample data to draw conclusions about population parameters.</p></div>
+<p style="margin:0"><button class="accordion">
+Course Materials
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">
+<div class="semester-item">
+<span class="semester-label">Fall 2024:</span>
+<a href="/Syllabus_ECON_2843_Fall_2024.pdf">Syllabus</a> |
+<a href="/Eval_ECON_2843_Fall_2024.pdf">Course Evaluation</a>
+</div>
+</div><br>
+
+<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Intermediate Microeconomic Theory (ECON 3113)</a> <br> <i>University of Oklahoma - Norman | Summer 2024</i> <br><button class="accordion">
+Course Description
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>The objective of this course is to introduce students to more advanced microeconomic concepts. We develop price theory, preferences and utility, constrained optimization and duality, production and cost, partial and general equilibrium, and the welfare theorems, with applications to taxes, externalities, and market power. By the end, students can set up and solve optimization problems, perform comparative statics, and evaluate efficiency and policy outcomes in real markets.</p></div>
+<p style="margin:0"><button class="accordion">
+Course Overview
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>Microeconomics examines how people and firms make choices under scarcity and how markets coordinate those choices. We use tools like supply and demand, elasticity, and marginal analysis to analyze real policies and market outcomes, including taxes, externalities, and market power.</p></div>
+<p style="margin:0"><button class="accordion">
+Course Materials
+</button>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">
+<div class="semester-item">
+<span class="semester-label">Summer 2024:</span>
+<a href="/Syllabus_ECON_3113_Summer_2024.pdf">Syllabus</a> |
+<a href="/Eval_ECON_3113_Summer_2024.pdf">Course Evaluation</a>
+</div>
+</div><br>
+
+<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Principles of Microeconomics Theory (ECON 1123)</a> <br> <i>University of Oklahoma - Norman | Fall 2023</i> <br><button class="accordion">
 Course Description
 </button>
 <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>The objective of this course is to introduce students to basic microeconomic concepts and prepare them for future economic classes. By the end of this class, students should be able to understand microeconomic theory and its applications, prepare and understand basic equilibrium graphs, relate economic topics to real world situations, and explain economic principles.</p></div>
@@ -82,54 +118,32 @@ Course Materials
 </button>
 <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">
 <div class="semester-item">
-<span class="semester-label">Fall 2023:</span> 
-<a href="/Syllabus_ECON_1123_Fall_2023.pdf">Syllabus</a> | 
+<span class="semester-label">Fall 2023:</span>
+<a href="/Syllabus_ECON_1123_Fall_2023.pdf">Syllabus</a> |
 <a href="/Eval_ECON_1123_Fall_2023.pdf">Course Evaluation</a>
 </div>
-<div class="semester-item">
-<span class="semester-label">Fall 2026:</span> In person; syllabus forthcoming
-</div>
 </div><br>
 
-<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Intermediate Microeconomic Theory(ECON 3113)</a> <br> <i>University of Oklahoma - Norman | Summer 2024</i> <br><button class="accordion">
+<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Principles of Macroeconomics Theory (ECON 1113)</a> <br> <i>University of Oklahoma - Norman | Summer 2023</i> <br><button class="accordion">
 Course Description
 </button>
-<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>The objective of this course is to introduce students to more advanced microeconomic concepts. We develop price theory—preferences and utility, constrained optimization and duality, production and cost, partial and general equilibrium, and the welfare theorems—with applications to taxes, externalities, and market power. By the end, students can set up and solve optimization problems, perform comparative statics, and evaluate efficiency and policy outcomes in real markets.</p></div>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>The objective of this course is to introduce students to basic macroeconomics concepts and prepare them for future economic classes. By the end of this class, students should be able to understand and explain basic macroeconomic concepts and basic elements of how the economy in the United States is structured, apply economics to current events, and distinguish between correct and incorrect economic logic.</p></div>
 <p style="margin:0"><button class="accordion">
 Course Overview
 </button>
-<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>Microeconomics examines how people and firms make choices under scarcity and how markets coordinate those choices. We use tools like supply–demand, elasticity, and marginal analysis to analyze real policies and market outcomes (taxes, externalities, market power).</p></div>
+<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>Macroeconomics focuses on economic outcomes at the national level. Questions such as why some countries are rich while others are poor, or why some economies grow rapidly while others stagnate, are best addressed after learning a set of tools for understanding aggregate economic outcomes.</p></div>
 <p style="margin:0"><button class="accordion">
 Course Materials
 </button>
 <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">
 <div class="semester-item">
-<span class="semester-label">Summer 2024:</span> 
-<a href="/Syllabus_ECON_3113_Summer_2024.pdf">Syllabus</a> | 
-<a href="/Eval_ECON_3113_Summer_2024.pdf">Course Evaluation</a>
+<span class="semester-label">Summer 2023:</span>
+<a href="/Syllabus_ECON_1113_Summer_2023.pdf">Syllabus</a> |
+<a href="/Eval_ECON_1113_Summer_2023.pdf">Course Evaluation</a>
 </div>
 </div><br>
 
-<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Elements of Statistics (ECON 2843)</a> <br> <i>University of Oklahoma - Norman | Fall 2024 </i> <br><button class="accordion">
-Course Description
-</button>
-<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>This is an introductory statistics course, which surveys basic statistical techniques with particular emphasis on business and economic applications. The learning objective of this course is to improve students' analytical skills in understanding and employing the descriptive and inferential statistics.</p></div>
-<p style="margin:0"><button class="accordion">
-Course Overview
-</button>
-<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>We begin this course by learning how to describe the data in use. Then, we focus on applied probability theory, which enables us to understand the essence of statistical inference. And for the rest of the course, we explore multiple inference tools such as confidence interval estimation, hypothesis testing, and the analysis of variance. These tools help us make use of sample data to reach conclusions about population parameters.</p></div>
-<p style="margin:0"><button class="accordion">
-Course Materials
-</button>
-<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">
-<div class="semester-item">
-<span class="semester-label">Fall 2024:</span> 
-<a href="/Syllabus_ECON_2843_Fall_2024.pdf">Syllabus</a> | 
-<a href="/Eval_ECON_2843_Fall_2024.pdf">Course Evaluation</a>
-</div>
-</div><br>
-
-<script> 
+<script>
 var acc = document.getElementsByClassName("accordion");
 var i;
 for (i = 0; i < acc.length; i++) {
@@ -143,9 +157,9 @@ for (i = 0; i < acc.length; i++) {
 <!-- Default Statcounter code for Personal Website
 https://ahmedelfatmaoui.github.io/ -->
 <script type="text/javascript">
-var sc_project=12988052; 
-var sc_invisible=1; 
-var sc_security="0346b3d7"; 
+var sc_project=12988052;
+var sc_invisible=1;
+var sc_security="0346b3d7";
 </script>
 <script type="text/javascript"
 src="https://www.statcounter.com/counter/counter.js" async></script>
@@ -154,4 +168,3 @@ href="https://statcounter.com/" target="_blank"><img class="statcounter"
 src="https://c.statcounter.com/12988052/0/0346b3d7/1/" alt="Web Analytics"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->
-
