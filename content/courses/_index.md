@@ -48,7 +48,34 @@ margin-bottom: 8px;
 font-weight: bold;
 color: #1976d2;
 }
+.portfolio-callout {
+border-left: 4px solid #841617;
+background: #f7eeee;
+padding: 14px 16px;
+margin: 0 0 24px 0;
+color: #444;
+}
+.portfolio-callout-title {
+font-weight: bold;
+font-size: 110%;
+color: #841617;
+margin-bottom: 6px;
+}
+.portfolio-callout p {
+margin: 0 0 10px 0;
+}
+.portfolio-callout a {
+color: #841617;
+font-weight: bold;
+text-decoration: none;
+}
 </style>
+
+<div class="portfolio-callout">
+  <div class="portfolio-callout-title"><i class="fas fa-chalkboard-teacher" style="margin-right: 7px;"></i>Teaching Portfolio</div>
+  <p>My teaching portfolio summarizes my teaching philosophy, course design, student evaluations, and examples of applied learning activities across undergraduate economics courses.</p>
+  <a href="/teaching_portfolio.pdf" target="_blank"><i class="fas fa-file-pdf" style="margin-right: 6px;"></i>View Teaching Portfolio</a>
+</div>
 
 <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Principles of Microeconomics Theory (ECON 1123)</a> <br> <i>University of Oklahoma - Norman | Fall 2026-present | In person</i> <br><button class="accordion">
 Course Description
